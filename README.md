@@ -4,7 +4,7 @@
 
 [![Stripe, spot and labyrinth patterns in a bosonic lattice](figures/research_overview.png)](figures/README.md)
 
-*Representative occupation-contrast configurations at $t=600$, shown on the same color scale. [Explore the figures](figures/README.md).*
+*Representative occupation-contrast configurations at t=600, shown on the same color scale. [Explore the figures](figures/README.md).*
 
 Simulation code, numerical data and analysis tools for **Quantum entanglement as a resource for self-organization and stabilization**, by **Kazuki Ikeda**, University of Massachusetts Boston.
 
