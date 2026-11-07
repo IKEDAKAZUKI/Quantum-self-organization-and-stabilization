@@ -1,0 +1,18 @@
+[
+  {
+    "id": "confirm_labyrinth_01",
+    "time": 600.0,
+    "mode": 0,
+    "minimum": -0.89,
+    "maximum": 0.84,
+    "contrast_array_sha256": "b76bd7985fc9fec9ba47a8ddf829f26553daffa49533002936e68c380270c5cd"
+  },
+  {
+    "id": "maint_labyrinth_01_0",
+    "time": 120.0,
+    "mode": 0,
+    "minimum": -0.85,
+    "maximum": 0.85,
+    "contrast_array_sha256": "33b4eb91f8c56f7f07a15a75ced24ae6f08077463bcf7959ea2e4a08b1d00a21"
+  }
+]

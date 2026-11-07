@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.nbc
+*.nbi
+.venv/
+venv/
+results/
+build/
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+*.log

@@ -1,0 +1,7 @@
+# Validated with Python 3.13.5
+numpy==2.3.5
+scipy==1.17.0
+pandas==2.2.3
+numba==0.65.1
+matplotlib==3.10.8
+PyMuPDF==1.26.7

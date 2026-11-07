@@ -1,0 +1,27 @@
+{
+  "action": "small",
+  "full_density": {
+    "hilbert_dimension": 81,
+    "max_density_difference": 4.996003610813204e-16,
+    "min_eigenvalue": 0.0,
+    "generator_trace_residual": 6.800116025829084e-16
+  },
+  "weighted_ppt": -1.229276050233639e-15,
+  "projected_density": {
+    "hilbert_dimension": 81,
+    "coarse_dimension": 36,
+    "lumpability_residual": 1.5543122344752192e-15,
+    "column_sum_residual": 4.2674197509029455e-16,
+    "max_marginal_error": 3.3306690738754696e-16,
+    "max_offdiagonal": 0.0
+  },
+  "five_cell_rates": {
+    "cases": 200,
+    "max_rate_error": 5.684341886080802e-14,
+    "max_drift_error": 4.440892098500626e-16,
+    "max_variance_ratio": 80.81396364435294
+  },
+  "errors": [],
+  "software_version": "1.0.0",
+  "status": "passed"
+}

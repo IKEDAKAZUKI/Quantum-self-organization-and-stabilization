@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite the associated study and this repository when using the code or data."
+type: software
+title: "Code and data for Quantum entanglement as a resource for self-organization and stabilization"
+authors:
+  - family-names: Ikeda
+    given-names: Kazuki
+    affiliation: University of Massachusetts Boston
+version: 1.0.0
+date-released: 2026-11-07
+repository-code: "https://github.com/IKEDAKAZUKI/Quantum-self-organization-and-stabilization"
+abstract: "Simulation code, numerical trajectories, analysis tools and figures for entanglement-dependent pattern formation and stabilization in a noisy bosonic lattice."

@@ -1,0 +1,42 @@
+{
+  "action": "thresholds",
+  "approximation": "Homogeneous deterministic limit with rapid phase relaxation",
+  "rows": [
+    {
+      "family": "stripe",
+      "separable_coherence_limit": 0.00019998000199980003,
+      "coherence_threshold": 0.6840281968814577,
+      "discrete_coherence_threshold": 0.6855740449892932,
+      "quantum_stationary_coherence": 0.9089917455286771,
+      "high_dephasing_coherence": 0.24997437756380608,
+      "separable_max_growth": -0.3,
+      "quantum_max_growth": 0.22653642042001565,
+      "high_dephasing_max_growth": -0.2621349286106811
+    },
+    {
+      "family": "spot",
+      "separable_coherence_limit": 0.00019998000199980003,
+      "coherence_threshold": 0.7817465107216659,
+      "discrete_coherence_threshold": 0.7824161218781864,
+      "quantum_stationary_coherence": 0.9089917455286771,
+      "high_dephasing_coherence": 0.24997437756380608,
+      "separable_max_growth": -0.3,
+      "quantum_max_growth": 0.10550613518728719,
+      "high_dephasing_max_growth": -0.2692300514116283
+    },
+    {
+      "family": "labyrinth",
+      "separable_coherence_limit": 0.00019998000199980003,
+      "coherence_threshold": 0.6080250638946291,
+      "discrete_coherence_threshold": 0.6085458725719227,
+      "quantum_stationary_coherence": 0.9089917455286771,
+      "high_dephasing_coherence": 0.24997437756380608,
+      "separable_max_growth": -0.3,
+      "quantum_max_growth": 0.3700871605908581,
+      "high_dephasing_max_growth": -0.2492663302406378
+    }
+  ],
+  "errors": [],
+  "software_version": "1.0.0",
+  "status": "passed"
+}

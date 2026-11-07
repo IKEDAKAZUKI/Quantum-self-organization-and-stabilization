@@ -1,0 +1,43 @@
+{
+  "action": "dephasing",
+  "reference_time": 240,
+  "evaluation_time": 650,
+  "families": [
+    {
+      "family": "stripe",
+      "n": 4,
+      "individual_ratios": [
+        1.0168996737444396,
+        0.9729380177170363,
+        1.0001748141281228,
+        1.0156220515049998
+      ],
+      "mean_individual_recovery_ratio": 1.0014086392736496
+    },
+    {
+      "family": "spot",
+      "n": 4,
+      "individual_ratios": [
+        0.8217564119381012,
+        1.0090781073934008,
+        0.8609405844982349,
+        1.0541043963573242
+      ],
+      "mean_individual_recovery_ratio": 0.9364698750467653
+    },
+    {
+      "family": "labyrinth",
+      "n": 4,
+      "individual_ratios": [
+        0.9844896718927391,
+        1.0646464851778712,
+        0.9708159916362276,
+        1.0124327764894239
+      ],
+      "mean_individual_recovery_ratio": 1.0080962312990653
+    }
+  ],
+  "errors": [],
+  "software_version": "1.0.0",
+  "status": "passed"
+}

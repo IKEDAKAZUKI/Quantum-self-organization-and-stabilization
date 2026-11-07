@@ -1,0 +1,9 @@
+{
+  "source": "src/critical_jump.cpp",
+  "source_sha256": "e0af79afc1d61e7f72a5baf1815cb9c0a911ea1c2d676984e0bef78e65010f18",
+  "recorded_data_generator_sha256": [
+    "dd78cb06ea9c944ff8946174c8396630ee4ec2660f322dd4aca4167fe8e46bd1"
+  ],
+  "software_version": "1.0.0",
+  "description": "Source hashes identify the code used for recorded trajectories. New simulations record the hash of the source compiled for that run."
+}

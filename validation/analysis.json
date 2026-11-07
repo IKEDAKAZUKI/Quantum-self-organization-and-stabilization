@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "analyses": [
+    {
+      "dataset": "primary",
+      "histories": 144,
+      "configurations": 3888,
+      "max_differences": {
+        "G": 9.71445146547012e-17,
+        "B": 2.220446049250313e-16,
+        "power": 9.984146755875889e-17,
+        "nematic": 1.1102230246251565e-16,
+        "compact_area_share": 1.1102230246251565e-16,
+        "transport_witness": 9.71445146547012e-17
+      },
+      "status": "passed"
+    },
+    {
+      "dataset": "preparations",
+      "histories": 72,
+      "independent_blocks": 4,
+      "status": "passed"
+    },
+    {
+      "dataset": "dephasing",
+      "histories": 12,
+      "configurations": 3912,
+      "status": "passed"
+    }
+  ]
+}

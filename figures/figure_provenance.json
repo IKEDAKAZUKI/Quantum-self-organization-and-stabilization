@@ -1,0 +1,473 @@
+{
+  "status": "passed",
+  "figures": 4,
+  "overview": "research_overview",
+  "formation_configurations": [
+    {
+      "id": "confirm_stripe_00",
+      "t": 0,
+      "index": 0,
+      "minimum": -0.07,
+      "maximum": 0.07
+    },
+    {
+      "id": "confirm_stripe_00",
+      "t": 20,
+      "index": 2,
+      "minimum": -0.43,
+      "maximum": 0.45
+    },
+    {
+      "id": "confirm_stripe_00",
+      "t": 60,
+      "index": 6,
+      "minimum": -0.58,
+      "maximum": 0.58
+    },
+    {
+      "id": "confirm_stripe_00",
+      "t": 600,
+      "index": 60,
+      "minimum": -0.6,
+      "maximum": 0.59
+    },
+    {
+      "id": "confirm_spot_00",
+      "t": 0,
+      "index": 0,
+      "minimum": -0.07,
+      "maximum": 0.07
+    },
+    {
+      "id": "confirm_spot_00",
+      "t": 20,
+      "index": 2,
+      "minimum": -0.19,
+      "maximum": 0.42
+    },
+    {
+      "id": "confirm_spot_00",
+      "t": 60,
+      "index": 6,
+      "minimum": -0.41000000000000003,
+      "maximum": 0.8200000000000001
+    },
+    {
+      "id": "confirm_spot_00",
+      "t": 600,
+      "index": 60,
+      "minimum": -0.36,
+      "maximum": 0.8
+    },
+    {
+      "id": "confirm_labyrinth_01",
+      "t": 0,
+      "index": 0,
+      "minimum": -0.07,
+      "maximum": 0.07
+    },
+    {
+      "id": "confirm_labyrinth_01",
+      "t": 20,
+      "index": 2,
+      "minimum": -0.89,
+      "maximum": 0.85
+    },
+    {
+      "id": "confirm_labyrinth_01",
+      "t": 60,
+      "index": 6,
+      "minimum": -0.9,
+      "maximum": 0.8300000000000001
+    },
+    {
+      "id": "confirm_labyrinth_01",
+      "t": 600,
+      "index": 60,
+      "minimum": -0.89,
+      "maximum": 0.84
+    }
+  ],
+  "input_sha256": {
+    "data/summary/primary_summary.csv": "499721172133a8f26c35b641efe7cd15622aee2622bf2929453f79113f588531",
+    "data/summary/dephasing_summary.csv": "96fed81a460a9912fc7e760a08c1c82475a771abbd92bdb7ae3c8ddc956b912d",
+    "data/primary/confirm_stripe_00.npz": "a426da3bb84fb402691626959c9f69ac38001bed6541b6c3ed467430cb0c02f3",
+    "data/primary/confirm_stripe_00_params.json": "6c9b488ccc2ba2a22480f353dfa64ca3b23440ead0ab3824637be9d2afb6cd7f",
+    "data/primary/confirm_spot_00.npz": "0ec38fff5a7a2a7f6d93131af07cc30fa57a4833d9ed2e9a638d44fa8a7215f1",
+    "data/primary/confirm_spot_00_params.json": "dcb6f4f5555ef674093ae932a40f4926c717349fd9671ab8943edf5aa48f9edd",
+    "data/primary/confirm_labyrinth_01.npz": "6a2ec0c1ee0afd80ce02ec0a35b92cce59d12b7094ec221d2d91161f91ac9ad0",
+    "data/primary/confirm_labyrinth_01_params.json": "7a40b21a99ee9397e4e3d9e416263561aef7a0acb689c735c2a363f18bec3116",
+    "data/primary/maint_labyrinth_01_0.npz": "2763e1f651fce3f7fb6b5a888a1d0b15e43ed71bba3fdc9aedb88bf9a95619c8",
+    "data/primary/maint_labyrinth_01_0_params.json": "b8259bc180febf06252aac4086b6919d055c61a46d3803baf02280fca4494994"
+  },
+  "heatmap": {
+    "cmap": "RdBu_r",
+    "vmin": -1,
+    "vmax": 1,
+    "interpolation": "bilinear"
+  },
+  "source_curve": "Analytical expectation from source_moments",
+  "growth_curve": "Continuous-wavevector homogeneous maximum, Eq. (16)",
+  "panel_layouts": [
+    {
+      "panel": "overview-stripe.pdf",
+      "width_inches": 1.62,
+      "height_inches": 1.83,
+      "visible_bounds_inches": [
+        0.039327777777777795,
+        0.08387777777777779,
+        1.5901999999999998,
+        1.7615444444444444
+      ],
+      "canvas_overflow_points": 0.0
+    },
+    {
+      "panel": "overview-spot.pdf",
+      "width_inches": 1.62,
+      "height_inches": 1.83,
+      "visible_bounds_inches": [
+        0.039327777777777795,
+        0.08387777777777779,
+        1.5901999999999998,
+        1.7615444444444444
+      ],
+      "canvas_overflow_points": 0.0
+    },
+    {
+      "panel": "overview-labyrinth.pdf",
+      "width_inches": 1.62,
+      "height_inches": 1.83,
+      "visible_bounds_inches": [
+        0.039327777777777795,
+        0.08387777777777779,
+        1.5901999999999998,
+        1.7615444444444444
+      ],
+      "canvas_overflow_points": 0.0
+    },
+    {
+      "panel": "overview-colorbar.pdf",
+      "width_inches": 7.0,
+      "height_inches": 0.9,
+      "visible_bounds_inches": [
+        2.0256250000000002,
+        0.025,
+        5.1450000000000005,
+        0.873
+      ],
+      "canvas_overflow_points": 0.0
+    },
+    {
+      "panel": "form-0-0.pdf",
+      "width_inches": 1.62,
+      "height_inches": 1.83,
+      "visible_bounds_inches": [
+        0.039327777777777795,
+        0.08387777777777779,
+        1.5901999999999998,
+        1.7831069444444445
+      ],
+      "canvas_overflow_points": 0.0
+    },
+    {
+      "panel": "form-0-1.pdf",
+      "width_inches": 1.62,
+      "height_inches": 1.83,
+      "visible_bounds_inches": [
+        0.2591888888888889,
+        0.08387777777777779,
+        1.5901999999999998,
+        1.7831069444444445
+      ],
+      "canvas_overflow_points": 0.0
+    },
+    {
+      "panel": "form-0-2.pdf",
+      "width_inches": 1.62,
+      "height_inches": 1.83,
+      "visible_bounds_inches": [
+        0.2591888888888889,
+        0.08387777777777779,
+        1.5901999999999998,
+        1.7831069444444445
+      ],
+      "canvas_overflow_points": 0.0
+    },
+    {
+      "panel": "form-0-3.pdf",
+      "width_inches": 1.62,
+      "height_inches": 1.83,
+      "visible_bounds_inches": [
+        0.2591888888888889,
+        0.08387777777777779,
+        1.5901999999999998,
+        1.7831069444444445
+      ],
+      "canvas_overflow_points": 0.0
+    },
+    {
+      "panel": "row-0.pdf",
+      "width_inches": 0.44,
+      "height_inches": 1.85,
+      "visible_bounds_inches": [
+        0.155,
+        0.759375,
+        0.28500000000000003,
+        1.090625
+      ],
+      "canvas_overflow_points": 0.0
+    },
+    {
+      "panel": "form-1-0.pdf",
+      "width_inches": 1.62,
+      "height_inches": 1.83,
+      "visible_bounds_inches": [
+        0.039327777777777795,
+        0.08387777777777779,
+        1.5901999999999998,
+        1.7831069444444445
+      ],
+      "canvas_overflow_points": 0.0
+    },
+    {
+      "panel": "form-1-1.pdf",
+      "width_inches": 1.62,
+      "height_inches": 1.83,
+      "visible_bounds_inches": [
+        0.2591888888888889,
+        0.08387777777777779,
+        1.5901999999999998,
+        1.7831069444444445
+      ],
+      "canvas_overflow_points": 0.0
+    },
+    {
+      "panel": "form-1-2.pdf",
+      "width_inches": 1.62,
+      "height_inches": 1.83,
+      "visible_bounds_inches": [
+        0.2591888888888889,
+        0.08387777777777779,
+        1.5901999999999998,
+        1.7831069444444445
+      ],
+      "canvas_overflow_points": 0.0
+    },
+    {
+      "panel": "form-1-3.pdf",
+      "width_inches": 1.62,
+      "height_inches": 1.83,
+      "visible_bounds_inches": [
+        0.2591888888888889,
+        0.08387777777777779,
+        1.5901999999999998,
+        1.7831069444444445
+      ],
+      "canvas_overflow_points": 0.0
+    },
+    {
+      "panel": "row-1.pdf",
+      "width_inches": 0.44,
+      "height_inches": 1.85,
+      "visible_bounds_inches": [
+        0.155,
+        0.798125,
+        0.28500000000000003,
+        1.0518750000000001
+      ],
+      "canvas_overflow_points": 0.0
+    },
+    {
+      "panel": "form-2-0.pdf",
+      "width_inches": 1.62,
+      "height_inches": 1.83,
+      "visible_bounds_inches": [
+        0.039327777777777795,
+        0.08387777777777779,
+        1.5901999999999998,
+        1.7831069444444445
+      ],
+      "canvas_overflow_points": 0.0
+    },
+    {
+      "panel": "form-2-1.pdf",
+      "width_inches": 1.62,
+      "height_inches": 1.83,
+      "visible_bounds_inches": [
+        0.2591888888888889,
+        0.08387777777777779,
+        1.5901999999999998,
+        1.7831069444444445
+      ],
+      "canvas_overflow_points": 0.0
+    },
+    {
+      "panel": "form-2-2.pdf",
+      "width_inches": 1.62,
+      "height_inches": 1.83,
+      "visible_bounds_inches": [
+        0.2591888888888889,
+        0.08387777777777779,
+        1.5901999999999998,
+        1.7831069444444445
+      ],
+      "canvas_overflow_points": 0.0
+    },
+    {
+      "panel": "form-2-3.pdf",
+      "width_inches": 1.62,
+      "height_inches": 1.83,
+      "visible_bounds_inches": [
+        0.2591888888888889,
+        0.08387777777777779,
+        1.5901999999999998,
+        1.7831069444444445
+      ],
+      "canvas_overflow_points": 0.0
+    },
+    {
+      "panel": "row-2.pdf",
+      "width_inches": 0.44,
+      "height_inches": 1.85,
+      "visible_bounds_inches": [
+        0.155,
+        0.65,
+        0.28500000000000003,
+        1.2
+      ],
+      "canvas_overflow_points": 0.0
+    },
+    {
+      "panel": "form-colorbar.pdf",
+      "width_inches": 7.0,
+      "height_inches": 0.9,
+      "visible_bounds_inches": [
+        2.0256250000000002,
+        0.025,
+        5.1450000000000005,
+        0.873
+      ],
+      "canvas_overflow_points": 0.0
+    },
+    {
+      "panel": "resource-a.pdf",
+      "width_inches": 7.0,
+      "height_inches": 2.1,
+      "visible_bounds_inches": [
+        0.3147222222222221,
+        0.10222222222222221,
+        6.805625,
+        1.9150798611111115
+      ],
+      "canvas_overflow_points": 0.0
+    },
+    {
+      "panel": "resource-1.pdf",
+      "width_inches": 7.0,
+      "height_inches": 2.1,
+      "visible_bounds_inches": [
+        0.27372222222222214,
+        0.10222222222222221,
+        6.823125,
+        2.0885243055555556
+      ],
+      "canvas_overflow_points": 0.0
+    },
+    {
+      "panel": "resource-2.pdf",
+      "width_inches": 7.0,
+      "height_inches": 2.1,
+      "visible_bounds_inches": [
+        0.26472222222222214,
+        0.10222222222222221,
+        6.823125,
+        1.8940798611111112
+      ],
+      "canvas_overflow_points": 0.0
+    },
+    {
+      "panel": "maint-0.pdf",
+      "width_inches": 3.5,
+      "height_inches": 2.8,
+      "visible_bounds_inches": [
+        0.17597222222222222,
+        0.22077777777777782,
+        3.395,
+        2.682923611111111
+      ],
+      "canvas_overflow_points": 0.0
+    },
+    {
+      "panel": "maint-1.pdf",
+      "width_inches": 3.5,
+      "height_inches": 2.8,
+      "visible_bounds_inches": [
+        0.5813888888888888,
+        0.22077777777777782,
+        3.395,
+        2.678079861111111
+      ],
+      "canvas_overflow_points": 0.0
+    },
+    {
+      "panel": "maint-cbar.pdf",
+      "width_inches": 7.0,
+      "height_inches": 0.9,
+      "visible_bounds_inches": [
+        2.0256250000000002,
+        0.025,
+        5.1450000000000005,
+        0.873
+      ],
+      "canvas_overflow_points": 0.0
+    },
+    {
+      "panel": "maint-c.pdf",
+      "width_inches": 4.2,
+      "height_inches": 2.8,
+      "visible_bounds_inches": [
+        0.16672222222222222,
+        0.21922222222222223,
+        4.136375,
+        2.7349687499999997
+      ],
+      "canvas_overflow_points": 0.0
+    },
+    {
+      "panel": "maint-d.pdf",
+      "width_inches": 2.8,
+      "height_inches": 2.8,
+      "visible_bounds_inches": [
+        0.2872222222222222,
+        0.45477777777777784,
+        2.66,
+        2.7349687499999997
+      ],
+      "canvas_overflow_points": 0.0
+    },
+    {
+      "panel": "control-a.pdf",
+      "width_inches": 7.0,
+      "height_inches": 2.5,
+      "visible_bounds_inches": [
+        0.2049722222222221,
+        0.1272222222222222,
+        6.80625,
+        2.397413194444444
+      ],
+      "canvas_overflow_points": 0.0
+    },
+    {
+      "panel": "control-b.pdf",
+      "width_inches": 7.0,
+      "height_inches": 2.5,
+      "visible_bounds_inches": [
+        0.2747222222222221,
+        0.1272222222222222,
+        6.72,
+        2.293923611111111
+      ],
+      "canvas_overflow_points": 0.0
+    }
+  ]
+}

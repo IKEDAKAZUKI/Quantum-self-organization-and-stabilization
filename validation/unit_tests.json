@@ -1,0 +1,8 @@
+{
+  "command": "python -m unittest discover -s tests -v",
+  "tests": 71,
+  "failures": 0,
+  "errors": 0,
+  "software_version": "1.0.0",
+  "status": "passed"
+}

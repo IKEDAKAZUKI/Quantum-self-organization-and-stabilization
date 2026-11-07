@@ -1,0 +1,59 @@
+{
+  "generator_sha256": "1d3c11a37f59443deadeff27b72d86d2b0c7beb6613645af9f9360a4828d7c3c",
+  "phase_draw_order": {
+    "primary": 0,
+    "preparations": 0,
+    "dephasing": 1
+  },
+  "description": "Order 0 assigns the plus state first; order 1 assigns the minus state first. Both sample the same phase probabilities.",
+  "initializations": [
+    {
+      "path": "data/dephasing/cycle_labyrinth_0_init.txt",
+      "sha256": "348f242583a72124da42c0617293f17871fd786a09c6a4f35e817ecc1f258293"
+    },
+    {
+      "path": "data/dephasing/cycle_labyrinth_1_init.txt",
+      "sha256": "348f242583a72124da42c0617293f17871fd786a09c6a4f35e817ecc1f258293"
+    },
+    {
+      "path": "data/dephasing/cycle_labyrinth_2_init.txt",
+      "sha256": "348f242583a72124da42c0617293f17871fd786a09c6a4f35e817ecc1f258293"
+    },
+    {
+      "path": "data/dephasing/cycle_labyrinth_3_init.txt",
+      "sha256": "348f242583a72124da42c0617293f17871fd786a09c6a4f35e817ecc1f258293"
+    },
+    {
+      "path": "data/dephasing/cycle_spot_0_init.txt",
+      "sha256": "348f242583a72124da42c0617293f17871fd786a09c6a4f35e817ecc1f258293"
+    },
+    {
+      "path": "data/dephasing/cycle_spot_1_init.txt",
+      "sha256": "348f242583a72124da42c0617293f17871fd786a09c6a4f35e817ecc1f258293"
+    },
+    {
+      "path": "data/dephasing/cycle_spot_2_init.txt",
+      "sha256": "348f242583a72124da42c0617293f17871fd786a09c6a4f35e817ecc1f258293"
+    },
+    {
+      "path": "data/dephasing/cycle_spot_3_init.txt",
+      "sha256": "348f242583a72124da42c0617293f17871fd786a09c6a4f35e817ecc1f258293"
+    },
+    {
+      "path": "data/dephasing/cycle_stripe_0_init.txt",
+      "sha256": "348f242583a72124da42c0617293f17871fd786a09c6a4f35e817ecc1f258293"
+    },
+    {
+      "path": "data/dephasing/cycle_stripe_1_init.txt",
+      "sha256": "348f242583a72124da42c0617293f17871fd786a09c6a4f35e817ecc1f258293"
+    },
+    {
+      "path": "data/dephasing/cycle_stripe_2_init.txt",
+      "sha256": "348f242583a72124da42c0617293f17871fd786a09c6a4f35e817ecc1f258293"
+    },
+    {
+      "path": "data/dephasing/cycle_stripe_3_init.txt",
+      "sha256": "348f242583a72124da42c0617293f17871fd786a09c6a4f35e817ecc1f258293"
+    }
+  ]
+}
