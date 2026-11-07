@@ -113,7 +113,7 @@ def main() -> None:
                                 elinewidth=.75, capsize=1.9, errorevery=16)
                     record(q, panel, mean=y, standard_error=se)
                 ax.set(xlim=(0,400), ylim=(-.02,1.03), xticks=[0,100,200,300,400], yticks=[0,.5,1])
-                axes_labels(ax, 'Converted fraction')
+                axes_labels(ax, r'Population in $\vert1\rangle_{\mathrm{env}}$')
                 ax.legend(loc='lower right', fontsize=8, handlelength=1.25,
                           borderaxespad=.35, labelspacing=.17)
             elif panel == 'b':
