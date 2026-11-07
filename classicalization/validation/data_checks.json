@@ -1,0 +1,1384 @@
+{
+  "status": "passed",
+  "completed_runs": 172,
+  "total_events": 3789485611,
+  "boundary_hits": 5,
+  "runs": [
+    {
+      "id": "higher_activity_scale_autonomous_labyrinth_00",
+      "source": "src/autonomous_jump.cpp",
+      "events": 18815583,
+      "boundary_hits": 0,
+      "all_activated_time": 226.52203955090783,
+      "status": "passed"
+    },
+    {
+      "id": "higher_activity_scale_autonomous_spot_00",
+      "source": "src/autonomous_jump.cpp",
+      "events": 19272787,
+      "boundary_hits": 0,
+      "all_activated_time": 320.7280414624013,
+      "status": "passed"
+    },
+    {
+      "id": "higher_activity_scale_autonomous_stripe_00",
+      "source": "src/autonomous_jump.cpp",
+      "events": 20531615,
+      "boundary_hits": 0,
+      "all_activated_time": 267.29785058563766,
+      "status": "passed"
+    },
+    {
+      "id": "higher_classical_gain_autonomous_labyrinth_00",
+      "source": "src/autonomous_jump.cpp",
+      "events": 18259600,
+      "boundary_hits": 5,
+      "all_activated_time": 203.33149199668088,
+      "status": "passed"
+    },
+    {
+      "id": "higher_classical_gain_autonomous_spot_00",
+      "source": "src/autonomous_jump.cpp",
+      "events": 18778505,
+      "boundary_hits": 0,
+      "all_activated_time": 284.47747957430636,
+      "status": "passed"
+    },
+    {
+      "id": "higher_classical_gain_autonomous_stripe_00",
+      "source": "src/autonomous_jump.cpp",
+      "events": 19867631,
+      "boundary_hits": 0,
+      "all_activated_time": 221.5175099676491,
+      "status": "passed"
+    },
+    {
+      "id": "initial_coherent_autonomous_labyrinth_00",
+      "source": "src/autonomous_jump.cpp",
+      "events": 18486984,
+      "boundary_hits": 0,
+      "all_activated_time": 209.3888728476684,
+      "status": "passed"
+    },
+    {
+      "id": "initial_coherent_autonomous_labyrinth_01",
+      "source": "src/autonomous_jump.cpp",
+      "events": 18624120,
+      "boundary_hits": 0,
+      "all_activated_time": 221.92947310035873,
+      "status": "passed"
+    },
+    {
+      "id": "initial_coherent_autonomous_spot_00",
+      "source": "src/autonomous_jump.cpp",
+      "events": 19013225,
+      "boundary_hits": 0,
+      "all_activated_time": 285.1149395129351,
+      "status": "passed"
+    },
+    {
+      "id": "initial_coherent_autonomous_spot_01",
+      "source": "src/autonomous_jump.cpp",
+      "events": 18955697,
+      "boundary_hits": 0,
+      "all_activated_time": 288.47604159903057,
+      "status": "passed"
+    },
+    {
+      "id": "initial_coherent_autonomous_stripe_00",
+      "source": "src/autonomous_jump.cpp",
+      "events": 20192187,
+      "boundary_hits": 0,
+      "all_activated_time": 264.01455905618974,
+      "status": "passed"
+    },
+    {
+      "id": "initial_coherent_autonomous_stripe_01",
+      "source": "src/autonomous_jump.cpp",
+      "events": 20098400,
+      "boundary_hits": 0,
+      "all_activated_time": 234.4583927944857,
+      "status": "passed"
+    },
+    {
+      "id": "lower_classical_gain_autonomous_labyrinth_00",
+      "source": "src/autonomous_jump.cpp",
+      "events": 18742320,
+      "boundary_hits": 0,
+      "all_activated_time": 208.54769663608948,
+      "status": "passed"
+    },
+    {
+      "id": "lower_classical_gain_autonomous_spot_00",
+      "source": "src/autonomous_jump.cpp",
+      "events": 19201689,
+      "boundary_hits": 0,
+      "all_activated_time": 270.07276940004505,
+      "status": "passed"
+    },
+    {
+      "id": "lower_classical_gain_autonomous_stripe_00",
+      "source": "src/autonomous_jump.cpp",
+      "events": 20306458,
+      "boundary_hits": 0,
+      "all_activated_time": 224.06375423597095,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_labyrinth_00",
+      "source": "src/autonomous_jump.cpp",
+      "events": 18477142,
+      "boundary_hits": 0,
+      "all_activated_time": 211.7529544560939,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_labyrinth_01",
+      "source": "src/autonomous_jump.cpp",
+      "events": 18635514,
+      "boundary_hits": 0,
+      "all_activated_time": 198.49990678981422,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_labyrinth_02",
+      "source": "src/autonomous_jump.cpp",
+      "events": 18521601,
+      "boundary_hits": 0,
+      "all_activated_time": 200.2939978620881,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_labyrinth_03",
+      "source": "src/autonomous_jump.cpp",
+      "events": 18577264,
+      "boundary_hits": 0,
+      "all_activated_time": 217.35225782666063,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_labyrinth_04",
+      "source": "src/autonomous_jump.cpp",
+      "events": 18619858,
+      "boundary_hits": 0,
+      "all_activated_time": 203.14302051402566,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_labyrinth_05",
+      "source": "src/autonomous_jump.cpp",
+      "events": 18623751,
+      "boundary_hits": 0,
+      "all_activated_time": 213.21409666831715,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_labyrinth_06",
+      "source": "src/autonomous_jump.cpp",
+      "events": 18657760,
+      "boundary_hits": 0,
+      "all_activated_time": 204.32222492672855,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_labyrinth_07",
+      "source": "src/autonomous_jump.cpp",
+      "events": 18608518,
+      "boundary_hits": 0,
+      "all_activated_time": 192.71067769698348,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_labyrinth_08",
+      "source": "src/autonomous_jump.cpp",
+      "events": 18564543,
+      "boundary_hits": 0,
+      "all_activated_time": 206.0440035662645,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_labyrinth_09",
+      "source": "src/autonomous_jump.cpp",
+      "events": 18599854,
+      "boundary_hits": 0,
+      "all_activated_time": 230.9503265603032,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_labyrinth_10",
+      "source": "src/autonomous_jump.cpp",
+      "events": 18461378,
+      "boundary_hits": 0,
+      "all_activated_time": 224.0415163705261,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_labyrinth_11",
+      "source": "src/autonomous_jump.cpp",
+      "events": 18529191,
+      "boundary_hits": 0,
+      "all_activated_time": 192.55245400739315,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_labyrinth_12",
+      "source": "src/autonomous_jump.cpp",
+      "events": 18519241,
+      "boundary_hits": 0,
+      "all_activated_time": 211.3279628356287,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_labyrinth_13",
+      "source": "src/autonomous_jump.cpp",
+      "events": 18523878,
+      "boundary_hits": 0,
+      "all_activated_time": 209.804534162329,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_labyrinth_14",
+      "source": "src/autonomous_jump.cpp",
+      "events": 18594796,
+      "boundary_hits": 0,
+      "all_activated_time": 189.3158024501256,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_labyrinth_15",
+      "source": "src/autonomous_jump.cpp",
+      "events": 18579792,
+      "boundary_hits": 0,
+      "all_activated_time": 232.73310686672292,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_spot_00",
+      "source": "src/autonomous_jump.cpp",
+      "events": 19018231,
+      "boundary_hits": 0,
+      "all_activated_time": 299.93774824881496,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_spot_01",
+      "source": "src/autonomous_jump.cpp",
+      "events": 18997723,
+      "boundary_hits": 0,
+      "all_activated_time": 285.7033722672306,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_spot_02",
+      "source": "src/autonomous_jump.cpp",
+      "events": 18874857,
+      "boundary_hits": 0,
+      "all_activated_time": 271.72463150365934,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_spot_03",
+      "source": "src/autonomous_jump.cpp",
+      "events": 18942803,
+      "boundary_hits": 0,
+      "all_activated_time": 260.40252610702447,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_spot_04",
+      "source": "src/autonomous_jump.cpp",
+      "events": 18887670,
+      "boundary_hits": 0,
+      "all_activated_time": 340.76007873663474,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_spot_05",
+      "source": "src/autonomous_jump.cpp",
+      "events": 18993713,
+      "boundary_hits": 0,
+      "all_activated_time": 288.1497576070177,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_spot_06",
+      "source": "src/autonomous_jump.cpp",
+      "events": 18903202,
+      "boundary_hits": 0,
+      "all_activated_time": 260.8836337426129,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_spot_07",
+      "source": "src/autonomous_jump.cpp",
+      "events": 18967044,
+      "boundary_hits": 0,
+      "all_activated_time": 313.7821373714014,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_spot_08",
+      "source": "src/autonomous_jump.cpp",
+      "events": 19075452,
+      "boundary_hits": 0,
+      "all_activated_time": 296.49730752313843,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_spot_09",
+      "source": "src/autonomous_jump.cpp",
+      "events": 18896238,
+      "boundary_hits": 0,
+      "all_activated_time": 273.401333416826,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_spot_10",
+      "source": "src/autonomous_jump.cpp",
+      "events": 18981347,
+      "boundary_hits": 0,
+      "all_activated_time": 295.9284173450202,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_spot_11",
+      "source": "src/autonomous_jump.cpp",
+      "events": 18937346,
+      "boundary_hits": 0,
+      "all_activated_time": 298.2550153443857,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_spot_12",
+      "source": "src/autonomous_jump.cpp",
+      "events": 18895807,
+      "boundary_hits": 0,
+      "all_activated_time": 279.645198499157,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_spot_13",
+      "source": "src/autonomous_jump.cpp",
+      "events": 18880243,
+      "boundary_hits": 0,
+      "all_activated_time": 286.09562529072656,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_spot_14",
+      "source": "src/autonomous_jump.cpp",
+      "events": 18937741,
+      "boundary_hits": 0,
+      "all_activated_time": 252.70708469320945,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_spot_15",
+      "source": "src/autonomous_jump.cpp",
+      "events": 19026546,
+      "boundary_hits": 0,
+      "all_activated_time": 296.0150621714312,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_stripe_00",
+      "source": "src/autonomous_jump.cpp",
+      "events": 20148228,
+      "boundary_hits": 0,
+      "all_activated_time": 221.85656446767504,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_stripe_01",
+      "source": "src/autonomous_jump.cpp",
+      "events": 20074362,
+      "boundary_hits": 0,
+      "all_activated_time": 236.59476243153347,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_stripe_02",
+      "source": "src/autonomous_jump.cpp",
+      "events": 20034231,
+      "boundary_hits": 0,
+      "all_activated_time": 218.33988836524452,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_stripe_03",
+      "source": "src/autonomous_jump.cpp",
+      "events": 20018467,
+      "boundary_hits": 0,
+      "all_activated_time": 216.92495253800985,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_stripe_04",
+      "source": "src/autonomous_jump.cpp",
+      "events": 20170833,
+      "boundary_hits": 0,
+      "all_activated_time": 214.72368867597763,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_stripe_05",
+      "source": "src/autonomous_jump.cpp",
+      "events": 20130974,
+      "boundary_hits": 0,
+      "all_activated_time": 212.3233284349189,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_stripe_06",
+      "source": "src/autonomous_jump.cpp",
+      "events": 20065557,
+      "boundary_hits": 0,
+      "all_activated_time": 230.73287922065748,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_stripe_07",
+      "source": "src/autonomous_jump.cpp",
+      "events": 20219063,
+      "boundary_hits": 0,
+      "all_activated_time": 221.9738408469395,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_stripe_08",
+      "source": "src/autonomous_jump.cpp",
+      "events": 20038872,
+      "boundary_hits": 0,
+      "all_activated_time": 215.346557309048,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_stripe_09",
+      "source": "src/autonomous_jump.cpp",
+      "events": 20144841,
+      "boundary_hits": 0,
+      "all_activated_time": 247.6710311265273,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_stripe_10",
+      "source": "src/autonomous_jump.cpp",
+      "events": 20137982,
+      "boundary_hits": 0,
+      "all_activated_time": 261.27649022949515,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_stripe_11",
+      "source": "src/autonomous_jump.cpp",
+      "events": 20119909,
+      "boundary_hits": 0,
+      "all_activated_time": 230.9006603584492,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_stripe_12",
+      "source": "src/autonomous_jump.cpp",
+      "events": 20116387,
+      "boundary_hits": 0,
+      "all_activated_time": 220.35470404241084,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_stripe_13",
+      "source": "src/autonomous_jump.cpp",
+      "events": 20165163,
+      "boundary_hits": 0,
+      "all_activated_time": 223.51303331649177,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_stripe_14",
+      "source": "src/autonomous_jump.cpp",
+      "events": 20179706,
+      "boundary_hits": 0,
+      "all_activated_time": 224.11666799018525,
+      "status": "passed"
+    },
+    {
+      "id": "main_autonomous_stripe_15",
+      "source": "src/autonomous_jump.cpp",
+      "events": 20256165,
+      "boundary_hits": 0,
+      "all_activated_time": 254.6901713935155,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_labyrinth_00",
+      "source": "src/autonomous_jump.cpp",
+      "events": 23543618,
+      "boundary_hits": 0,
+      "all_activated_time": 232.35585977120405,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_labyrinth_01",
+      "source": "src/autonomous_jump.cpp",
+      "events": 23636573,
+      "boundary_hits": 0,
+      "all_activated_time": 234.28784669438545,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_labyrinth_02",
+      "source": "src/autonomous_jump.cpp",
+      "events": 23514682,
+      "boundary_hits": 0,
+      "all_activated_time": 196.44934184458847,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_labyrinth_03",
+      "source": "src/autonomous_jump.cpp",
+      "events": 23509713,
+      "boundary_hits": 0,
+      "all_activated_time": 196.94329791276476,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_labyrinth_04",
+      "source": "src/autonomous_jump.cpp",
+      "events": 23576412,
+      "boundary_hits": 0,
+      "all_activated_time": 208.79248897740487,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_labyrinth_05",
+      "source": "src/autonomous_jump.cpp",
+      "events": 23531948,
+      "boundary_hits": 0,
+      "all_activated_time": 218.2098864409764,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_labyrinth_06",
+      "source": "src/autonomous_jump.cpp",
+      "events": 23584646,
+      "boundary_hits": 0,
+      "all_activated_time": 208.09013804771996,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_labyrinth_07",
+      "source": "src/autonomous_jump.cpp",
+      "events": 23538586,
+      "boundary_hits": 0,
+      "all_activated_time": 240.21113653640424,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_labyrinth_08",
+      "source": "src/autonomous_jump.cpp",
+      "events": 23555413,
+      "boundary_hits": 0,
+      "all_activated_time": 212.4373994328191,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_labyrinth_09",
+      "source": "src/autonomous_jump.cpp",
+      "events": 23552195,
+      "boundary_hits": 0,
+      "all_activated_time": 247.18501029696094,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_labyrinth_10",
+      "source": "src/autonomous_jump.cpp",
+      "events": 23609610,
+      "boundary_hits": 0,
+      "all_activated_time": 223.2217831266967,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_labyrinth_11",
+      "source": "src/autonomous_jump.cpp",
+      "events": 23531833,
+      "boundary_hits": 0,
+      "all_activated_time": 215.90340469559078,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_labyrinth_12",
+      "source": "src/autonomous_jump.cpp",
+      "events": 23527715,
+      "boundary_hits": 0,
+      "all_activated_time": 218.98360298833543,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_labyrinth_13",
+      "source": "src/autonomous_jump.cpp",
+      "events": 23551013,
+      "boundary_hits": 0,
+      "all_activated_time": 228.4825372004528,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_labyrinth_14",
+      "source": "src/autonomous_jump.cpp",
+      "events": 23425640,
+      "boundary_hits": 0,
+      "all_activated_time": 209.38190064223542,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_labyrinth_15",
+      "source": "src/autonomous_jump.cpp",
+      "events": 23599378,
+      "boundary_hits": 0,
+      "all_activated_time": 200.58038994992432,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_spot_00",
+      "source": "src/autonomous_jump.cpp",
+      "events": 23110229,
+      "boundary_hits": 0,
+      "all_activated_time": 298.91907068535414,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_spot_01",
+      "source": "src/autonomous_jump.cpp",
+      "events": 23003113,
+      "boundary_hits": 0,
+      "all_activated_time": 303.53891857174887,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_spot_02",
+      "source": "src/autonomous_jump.cpp",
+      "events": 22981560,
+      "boundary_hits": 0,
+      "all_activated_time": 307.47981892225937,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_spot_03",
+      "source": "src/autonomous_jump.cpp",
+      "events": 23034377,
+      "boundary_hits": 0,
+      "all_activated_time": 294.8470236773066,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_spot_04",
+      "source": "src/autonomous_jump.cpp",
+      "events": 22975216,
+      "boundary_hits": 0,
+      "all_activated_time": 277.3212525768738,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_spot_05",
+      "source": "src/autonomous_jump.cpp",
+      "events": 23052688,
+      "boundary_hits": 0,
+      "all_activated_time": 285.8243295165186,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_spot_06",
+      "source": "src/autonomous_jump.cpp",
+      "events": 23056175,
+      "boundary_hits": 0,
+      "all_activated_time": 288.2238196876531,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_spot_07",
+      "source": "src/autonomous_jump.cpp",
+      "events": 23070256,
+      "boundary_hits": 0,
+      "all_activated_time": 291.13418558161936,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_spot_08",
+      "source": "src/autonomous_jump.cpp",
+      "events": 23098513,
+      "boundary_hits": 0,
+      "all_activated_time": 299.34592125813595,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_spot_09",
+      "source": "src/autonomous_jump.cpp",
+      "events": 23113814,
+      "boundary_hits": 0,
+      "all_activated_time": 302.63147766685864,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_spot_10",
+      "source": "src/autonomous_jump.cpp",
+      "events": 23030750,
+      "boundary_hits": 0,
+      "all_activated_time": 272.7086146819316,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_spot_11",
+      "source": "src/autonomous_jump.cpp",
+      "events": 23098343,
+      "boundary_hits": 0,
+      "all_activated_time": 262.58504429272557,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_spot_12",
+      "source": "src/autonomous_jump.cpp",
+      "events": 23016018,
+      "boundary_hits": 0,
+      "all_activated_time": 283.14000313268104,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_spot_13",
+      "source": "src/autonomous_jump.cpp",
+      "events": 23066600,
+      "boundary_hits": 0,
+      "all_activated_time": 309.1592273627969,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_spot_14",
+      "source": "src/autonomous_jump.cpp",
+      "events": 23064477,
+      "boundary_hits": 0,
+      "all_activated_time": 267.8999669475342,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_spot_15",
+      "source": "src/autonomous_jump.cpp",
+      "events": 23105445,
+      "boundary_hits": 0,
+      "all_activated_time": 316.1089600701076,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_stripe_00",
+      "source": "src/autonomous_jump.cpp",
+      "events": 24642093,
+      "boundary_hits": 0,
+      "all_activated_time": 256.16502587641463,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_stripe_01",
+      "source": "src/autonomous_jump.cpp",
+      "events": 24539197,
+      "boundary_hits": 0,
+      "all_activated_time": 317.6815796313091,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_stripe_02",
+      "source": "src/autonomous_jump.cpp",
+      "events": 24591524,
+      "boundary_hits": 0,
+      "all_activated_time": 235.73129289299953,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_stripe_03",
+      "source": "src/autonomous_jump.cpp",
+      "events": 24601020,
+      "boundary_hits": 0,
+      "all_activated_time": 247.62873039459316,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_stripe_04",
+      "source": "src/autonomous_jump.cpp",
+      "events": 24639086,
+      "boundary_hits": 0,
+      "all_activated_time": 252.1530374704082,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_stripe_05",
+      "source": "src/autonomous_jump.cpp",
+      "events": 24626787,
+      "boundary_hits": 0,
+      "all_activated_time": 261.43471009657213,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_stripe_06",
+      "source": "src/autonomous_jump.cpp",
+      "events": 24583738,
+      "boundary_hits": 0,
+      "all_activated_time": 246.03704385957303,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_stripe_07",
+      "source": "src/autonomous_jump.cpp",
+      "events": 24639707,
+      "boundary_hits": 0,
+      "all_activated_time": 262.1948511300711,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_stripe_08",
+      "source": "src/autonomous_jump.cpp",
+      "events": 24540961,
+      "boundary_hits": 0,
+      "all_activated_time": 241.1472647595924,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_stripe_09",
+      "source": "src/autonomous_jump.cpp",
+      "events": 24574697,
+      "boundary_hits": 0,
+      "all_activated_time": 239.31804471464744,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_stripe_10",
+      "source": "src/autonomous_jump.cpp",
+      "events": 24637300,
+      "boundary_hits": 0,
+      "all_activated_time": 251.22325462145176,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_stripe_11",
+      "source": "src/autonomous_jump.cpp",
+      "events": 24628684,
+      "boundary_hits": 0,
+      "all_activated_time": 240.22976931386313,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_stripe_12",
+      "source": "src/autonomous_jump.cpp",
+      "events": 24596341,
+      "boundary_hits": 0,
+      "all_activated_time": 264.3217962210655,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_stripe_13",
+      "source": "src/autonomous_jump.cpp",
+      "events": 24650582,
+      "boundary_hits": 0,
+      "all_activated_time": 256.6391979840507,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_stripe_14",
+      "source": "src/autonomous_jump.cpp",
+      "events": 24705583,
+      "boundary_hits": 0,
+      "all_activated_time": 271.9843791827976,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_classical_gain_stripe_15",
+      "source": "src/autonomous_jump.cpp",
+      "events": 24772744,
+      "boundary_hits": 0,
+      "all_activated_time": 286.20908983802224,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_labyrinth_00",
+      "source": "src/autonomous_jump.cpp",
+      "events": 22240412,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_labyrinth_01",
+      "source": "src/autonomous_jump.cpp",
+      "events": 22240082,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_labyrinth_02",
+      "source": "src/autonomous_jump.cpp",
+      "events": 22239903,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_labyrinth_03",
+      "source": "src/autonomous_jump.cpp",
+      "events": 22237938,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_labyrinth_04",
+      "source": "src/autonomous_jump.cpp",
+      "events": 22234846,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_labyrinth_05",
+      "source": "src/autonomous_jump.cpp",
+      "events": 22229086,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_labyrinth_06",
+      "source": "src/autonomous_jump.cpp",
+      "events": 22241767,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_labyrinth_07",
+      "source": "src/autonomous_jump.cpp",
+      "events": 22245328,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_labyrinth_08",
+      "source": "src/autonomous_jump.cpp",
+      "events": 22232978,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_labyrinth_09",
+      "source": "src/autonomous_jump.cpp",
+      "events": 22234269,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_labyrinth_10",
+      "source": "src/autonomous_jump.cpp",
+      "events": 22238856,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_labyrinth_11",
+      "source": "src/autonomous_jump.cpp",
+      "events": 22231664,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_labyrinth_12",
+      "source": "src/autonomous_jump.cpp",
+      "events": 22241790,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_labyrinth_13",
+      "source": "src/autonomous_jump.cpp",
+      "events": 22219948,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_labyrinth_14",
+      "source": "src/autonomous_jump.cpp",
+      "events": 22241932,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_labyrinth_15",
+      "source": "src/autonomous_jump.cpp",
+      "events": 22236399,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_spot_00",
+      "source": "src/autonomous_jump.cpp",
+      "events": 22227040,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_spot_01",
+      "source": "src/autonomous_jump.cpp",
+      "events": 22238677,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_spot_02",
+      "source": "src/autonomous_jump.cpp",
+      "events": 22222077,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_spot_03",
+      "source": "src/autonomous_jump.cpp",
+      "events": 22236795,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_spot_04",
+      "source": "src/autonomous_jump.cpp",
+      "events": 22220542,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_spot_05",
+      "source": "src/autonomous_jump.cpp",
+      "events": 22230338,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_spot_06",
+      "source": "src/autonomous_jump.cpp",
+      "events": 22242146,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_spot_07",
+      "source": "src/autonomous_jump.cpp",
+      "events": 22237995,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_spot_08",
+      "source": "src/autonomous_jump.cpp",
+      "events": 22222355,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_spot_09",
+      "source": "src/autonomous_jump.cpp",
+      "events": 22234607,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_spot_10",
+      "source": "src/autonomous_jump.cpp",
+      "events": 22226703,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_spot_11",
+      "source": "src/autonomous_jump.cpp",
+      "events": 22235833,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_spot_12",
+      "source": "src/autonomous_jump.cpp",
+      "events": 22232688,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_spot_13",
+      "source": "src/autonomous_jump.cpp",
+      "events": 22250515,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_spot_14",
+      "source": "src/autonomous_jump.cpp",
+      "events": 22232851,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_spot_15",
+      "source": "src/autonomous_jump.cpp",
+      "events": 22240366,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_stripe_00",
+      "source": "src/autonomous_jump.cpp",
+      "events": 23793543,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_stripe_01",
+      "source": "src/autonomous_jump.cpp",
+      "events": 23806814,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_stripe_02",
+      "source": "src/autonomous_jump.cpp",
+      "events": 23803194,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_stripe_03",
+      "source": "src/autonomous_jump.cpp",
+      "events": 23798312,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_stripe_04",
+      "source": "src/autonomous_jump.cpp",
+      "events": 23798240,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_stripe_05",
+      "source": "src/autonomous_jump.cpp",
+      "events": 23795855,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_stripe_06",
+      "source": "src/autonomous_jump.cpp",
+      "events": 23797603,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_stripe_07",
+      "source": "src/autonomous_jump.cpp",
+      "events": 23807803,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_stripe_08",
+      "source": "src/autonomous_jump.cpp",
+      "events": 23805352,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_stripe_09",
+      "source": "src/autonomous_jump.cpp",
+      "events": 23790007,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_stripe_10",
+      "source": "src/autonomous_jump.cpp",
+      "events": 23823191,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_stripe_11",
+      "source": "src/autonomous_jump.cpp",
+      "events": 23799452,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_stripe_12",
+      "source": "src/autonomous_jump.cpp",
+      "events": 23817031,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_stripe_13",
+      "source": "src/autonomous_jump.cpp",
+      "events": 23802582,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_stripe_14",
+      "source": "src/autonomous_jump.cpp",
+      "events": 23800555,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "main_no_quantum_stripe_15",
+      "source": "src/autonomous_jump.cpp",
+      "events": 23806404,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "projected_projected_control_labyrinth_00",
+      "source": "src/projected_control.cpp",
+      "events": 22709939,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "projected_projected_control_spot_00",
+      "source": "src/projected_control.cpp",
+      "events": 22510213,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "projected_projected_control_stripe_00",
+      "source": "src/projected_reference.cpp",
+      "events": 24091849,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "projected_projected_control_stripe_01",
+      "source": "src/projected_reference.cpp",
+      "events": 24109357,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "reference_no_environment_labyrinth_00",
+      "source": "src/autonomous_jump.cpp",
+      "events": 54825291,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "reference_no_environment_spot_00",
+      "source": "src/autonomous_jump.cpp",
+      "events": 34806046,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "reference_no_environment_stripe_00",
+      "source": "src/autonomous_jump.cpp",
+      "events": 43586143,
+      "boundary_hits": 0,
+      "all_activated_time": -1,
+      "status": "passed"
+    },
+    {
+      "id": "slow_activation_autonomous_labyrinth_00",
+      "source": "src/autonomous_jump.cpp",
+      "events": 19078503,
+      "boundary_hits": 0,
+      "all_activated_time": 235.89243447802286,
+      "status": "passed"
+    },
+    {
+      "id": "slow_activation_autonomous_spot_00",
+      "source": "src/autonomous_jump.cpp",
+      "events": 19288211,
+      "boundary_hits": 0,
+      "all_activated_time": 334.49346650921404,
+      "status": "passed"
+    },
+    {
+      "id": "slow_activation_autonomous_stripe_00",
+      "source": "src/autonomous_jump.cpp",
+      "events": 20468924,
+      "boundary_hits": 0,
+      "all_activated_time": 252.80534396664234,
+      "status": "passed"
+    },
+    {
+      "id": "slow_propagation_autonomous_labyrinth_00",
+      "source": "src/autonomous_jump.cpp",
+      "events": 19683387,
+      "boundary_hits": 0,
+      "all_activated_time": 348.612592823511,
+      "status": "passed"
+    },
+    {
+      "id": "slow_propagation_autonomous_spot_00",
+      "source": "src/autonomous_jump.cpp",
+      "events": 19943749,
+      "boundary_hits": 0,
+      "all_activated_time": 508.5165144205608,
+      "status": "passed"
+    },
+    {
+      "id": "slow_propagation_autonomous_stripe_00",
+      "source": "src/autonomous_jump.cpp",
+      "events": 20905157,
+      "boundary_hits": 0,
+      "all_activated_time": 351.59054823919547,
+      "status": "passed"
+    }
+  ]
+}

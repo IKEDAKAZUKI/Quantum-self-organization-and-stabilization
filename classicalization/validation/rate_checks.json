@@ -1,0 +1,6 @@
+{
+  "cases": 8192,
+  "max_projected_mean_root_error": 3.552713678800501e-15,
+  "max_drift_error": 1.7763568394002505e-15,
+  "max_variance_error": 2.7755575615628914e-17
+}

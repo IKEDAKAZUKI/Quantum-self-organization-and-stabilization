@@ -1,0 +1,472 @@
+{
+  "reference_time": {
+    "symbol": "t_*",
+    "value": 345.0,
+    "definition": "First common saved time at which every baseline autonomous environmental record has h_x=1 at every cell.",
+    "baseline_runs": 48,
+    "latest_conversion_event_time": 340.76007873663474,
+    "runs": [
+      {
+        "id": "main_autonomous_labyrinth_00",
+        "conversion_event_time": 211.7529544560939,
+        "first_complete_saved_time": 215.0
+      },
+      {
+        "id": "main_autonomous_labyrinth_01",
+        "conversion_event_time": 198.49990678981422,
+        "first_complete_saved_time": 200.0
+      },
+      {
+        "id": "main_autonomous_labyrinth_02",
+        "conversion_event_time": 200.2939978620881,
+        "first_complete_saved_time": 205.0
+      },
+      {
+        "id": "main_autonomous_labyrinth_03",
+        "conversion_event_time": 217.35225782666063,
+        "first_complete_saved_time": 220.0
+      },
+      {
+        "id": "main_autonomous_labyrinth_04",
+        "conversion_event_time": 203.14302051402566,
+        "first_complete_saved_time": 205.0
+      },
+      {
+        "id": "main_autonomous_labyrinth_05",
+        "conversion_event_time": 213.21409666831715,
+        "first_complete_saved_time": 215.0
+      },
+      {
+        "id": "main_autonomous_labyrinth_06",
+        "conversion_event_time": 204.32222492672855,
+        "first_complete_saved_time": 205.0
+      },
+      {
+        "id": "main_autonomous_labyrinth_07",
+        "conversion_event_time": 192.71067769698348,
+        "first_complete_saved_time": 195.0
+      },
+      {
+        "id": "main_autonomous_labyrinth_08",
+        "conversion_event_time": 206.0440035662645,
+        "first_complete_saved_time": 210.0
+      },
+      {
+        "id": "main_autonomous_labyrinth_09",
+        "conversion_event_time": 230.9503265603032,
+        "first_complete_saved_time": 235.0
+      },
+      {
+        "id": "main_autonomous_labyrinth_10",
+        "conversion_event_time": 224.0415163705261,
+        "first_complete_saved_time": 225.0
+      },
+      {
+        "id": "main_autonomous_labyrinth_11",
+        "conversion_event_time": 192.55245400739315,
+        "first_complete_saved_time": 195.0
+      },
+      {
+        "id": "main_autonomous_labyrinth_12",
+        "conversion_event_time": 211.3279628356287,
+        "first_complete_saved_time": 215.0
+      },
+      {
+        "id": "main_autonomous_labyrinth_13",
+        "conversion_event_time": 209.804534162329,
+        "first_complete_saved_time": 210.0
+      },
+      {
+        "id": "main_autonomous_labyrinth_14",
+        "conversion_event_time": 189.3158024501256,
+        "first_complete_saved_time": 190.0
+      },
+      {
+        "id": "main_autonomous_labyrinth_15",
+        "conversion_event_time": 232.73310686672292,
+        "first_complete_saved_time": 235.0
+      },
+      {
+        "id": "main_autonomous_spot_00",
+        "conversion_event_time": 299.93774824881496,
+        "first_complete_saved_time": 300.0
+      },
+      {
+        "id": "main_autonomous_spot_01",
+        "conversion_event_time": 285.7033722672306,
+        "first_complete_saved_time": 290.0
+      },
+      {
+        "id": "main_autonomous_spot_02",
+        "conversion_event_time": 271.72463150365934,
+        "first_complete_saved_time": 275.0
+      },
+      {
+        "id": "main_autonomous_spot_03",
+        "conversion_event_time": 260.40252610702447,
+        "first_complete_saved_time": 265.0
+      },
+      {
+        "id": "main_autonomous_spot_04",
+        "conversion_event_time": 340.76007873663474,
+        "first_complete_saved_time": 345.0
+      },
+      {
+        "id": "main_autonomous_spot_05",
+        "conversion_event_time": 288.1497576070177,
+        "first_complete_saved_time": 290.0
+      },
+      {
+        "id": "main_autonomous_spot_06",
+        "conversion_event_time": 260.8836337426129,
+        "first_complete_saved_time": 265.0
+      },
+      {
+        "id": "main_autonomous_spot_07",
+        "conversion_event_time": 313.7821373714014,
+        "first_complete_saved_time": 315.0
+      },
+      {
+        "id": "main_autonomous_spot_08",
+        "conversion_event_time": 296.49730752313843,
+        "first_complete_saved_time": 300.0
+      },
+      {
+        "id": "main_autonomous_spot_09",
+        "conversion_event_time": 273.401333416826,
+        "first_complete_saved_time": 275.0
+      },
+      {
+        "id": "main_autonomous_spot_10",
+        "conversion_event_time": 295.9284173450202,
+        "first_complete_saved_time": 300.0
+      },
+      {
+        "id": "main_autonomous_spot_11",
+        "conversion_event_time": 298.2550153443857,
+        "first_complete_saved_time": 300.0
+      },
+      {
+        "id": "main_autonomous_spot_12",
+        "conversion_event_time": 279.645198499157,
+        "first_complete_saved_time": 280.0
+      },
+      {
+        "id": "main_autonomous_spot_13",
+        "conversion_event_time": 286.09562529072656,
+        "first_complete_saved_time": 290.0
+      },
+      {
+        "id": "main_autonomous_spot_14",
+        "conversion_event_time": 252.70708469320945,
+        "first_complete_saved_time": 255.0
+      },
+      {
+        "id": "main_autonomous_spot_15",
+        "conversion_event_time": 296.0150621714312,
+        "first_complete_saved_time": 300.0
+      },
+      {
+        "id": "main_autonomous_stripe_00",
+        "conversion_event_time": 221.85656446767504,
+        "first_complete_saved_time": 225.0
+      },
+      {
+        "id": "main_autonomous_stripe_01",
+        "conversion_event_time": 236.59476243153347,
+        "first_complete_saved_time": 240.0
+      },
+      {
+        "id": "main_autonomous_stripe_02",
+        "conversion_event_time": 218.33988836524452,
+        "first_complete_saved_time": 220.0
+      },
+      {
+        "id": "main_autonomous_stripe_03",
+        "conversion_event_time": 216.92495253800985,
+        "first_complete_saved_time": 220.0
+      },
+      {
+        "id": "main_autonomous_stripe_04",
+        "conversion_event_time": 214.72368867597763,
+        "first_complete_saved_time": 215.0
+      },
+      {
+        "id": "main_autonomous_stripe_05",
+        "conversion_event_time": 212.3233284349189,
+        "first_complete_saved_time": 215.0
+      },
+      {
+        "id": "main_autonomous_stripe_06",
+        "conversion_event_time": 230.73287922065748,
+        "first_complete_saved_time": 235.0
+      },
+      {
+        "id": "main_autonomous_stripe_07",
+        "conversion_event_time": 221.9738408469395,
+        "first_complete_saved_time": 225.0
+      },
+      {
+        "id": "main_autonomous_stripe_08",
+        "conversion_event_time": 215.346557309048,
+        "first_complete_saved_time": 220.0
+      },
+      {
+        "id": "main_autonomous_stripe_09",
+        "conversion_event_time": 247.6710311265273,
+        "first_complete_saved_time": 250.0
+      },
+      {
+        "id": "main_autonomous_stripe_10",
+        "conversion_event_time": 261.27649022949515,
+        "first_complete_saved_time": 265.0
+      },
+      {
+        "id": "main_autonomous_stripe_11",
+        "conversion_event_time": 230.9006603584492,
+        "first_complete_saved_time": 235.0
+      },
+      {
+        "id": "main_autonomous_stripe_12",
+        "conversion_event_time": 220.35470404241084,
+        "first_complete_saved_time": 225.0
+      },
+      {
+        "id": "main_autonomous_stripe_13",
+        "conversion_event_time": 223.51303331649177,
+        "first_complete_saved_time": 225.0
+      },
+      {
+        "id": "main_autonomous_stripe_14",
+        "conversion_event_time": 224.11666799018525,
+        "first_complete_saved_time": 225.0
+      },
+      {
+        "id": "main_autonomous_stripe_15",
+        "conversion_event_time": 254.6901713935155,
+        "first_complete_saved_time": 255.0
+      }
+    ]
+  },
+  "representative_selection": "Lower median final band power, without morphology filtering",
+  "runs": {
+    "stripe": "main_autonomous_stripe_05",
+    "spot": "main_autonomous_spot_05",
+    "labyrinth": "main_autonomous_labyrinth_08"
+  },
+  "times": [
+    0,
+    40,
+    150,
+    345.0,
+    1200
+  ],
+  "heatmap": {
+    "cmap": "RdBu_r",
+    "vmin": -1,
+    "vmax": 1,
+    "interpolation": "bilinear"
+  },
+  "panel_c_ylim": [
+    0.995,
+    1.025
+  ],
+  "panel_c_mean_plus_minus_sem_range": [
+    0.9985755283817793,
+    1.0203362861266942
+  ],
+  "maps": [
+    {
+      "id": "main_autonomous_stripe_05",
+      "family": "stripe",
+      "t": 0.0,
+      "h_mean": 0.0,
+      "contrast_sha256": "f4494bb0cd4d0f946e0e1a76e4ad773272a735ea845b8ec567fd1d1f3a2c4ad3"
+    },
+    {
+      "id": "main_autonomous_stripe_05",
+      "family": "stripe",
+      "t": 40.0,
+      "h_mean": 0.03273809523809524,
+      "contrast_sha256": "8b16d81d3f1cc3ec6cdab89491b83b163fdbe93451426989e15f5b6b7b4715b8"
+    },
+    {
+      "id": "main_autonomous_stripe_05",
+      "family": "stripe",
+      "t": 150.0,
+      "h_mean": 0.9278273809523809,
+      "contrast_sha256": "266bde09e28cf1499c2b777c1bcb8b81ecd103fed55177bd441dffb259315a46"
+    },
+    {
+      "id": "main_autonomous_stripe_05",
+      "family": "stripe",
+      "t": 345.0,
+      "h_mean": 1.0,
+      "contrast_sha256": "8f4301b6293f34b86e296518b94f669922b389c0ca9f6068b8069b7532c118a4"
+    },
+    {
+      "id": "main_autonomous_stripe_05",
+      "family": "stripe",
+      "t": 1200.0,
+      "h_mean": 1.0,
+      "contrast_sha256": "2daf4e4a3f9692b9e726dd22396c0cec6c6d4b62401ccf516b640ebe5e7b82c2"
+    },
+    {
+      "id": "main_autonomous_spot_05",
+      "family": "spot",
+      "t": 0.0,
+      "h_mean": 0.0,
+      "contrast_sha256": "f4494bb0cd4d0f946e0e1a76e4ad773272a735ea845b8ec567fd1d1f3a2c4ad3"
+    },
+    {
+      "id": "main_autonomous_spot_05",
+      "family": "spot",
+      "t": 40.0,
+      "h_mean": 0.00855654761904762,
+      "contrast_sha256": "5357a86fcee8a98071067113c070df8221ea9aecf822925860207d4ead80e019"
+    },
+    {
+      "id": "main_autonomous_spot_05",
+      "family": "spot",
+      "t": 150.0,
+      "h_mean": 0.6465773809523809,
+      "contrast_sha256": "37efda3cd17b09ff67d95d0e6a2a4b75c4a2f07008be3f52443f0a139d4094bf"
+    },
+    {
+      "id": "main_autonomous_spot_05",
+      "family": "spot",
+      "t": 345.0,
+      "h_mean": 1.0,
+      "contrast_sha256": "c06261b8751e504a0163a00f21e893c9568dc6151029e258c7f103c7fd71e278"
+    },
+    {
+      "id": "main_autonomous_spot_05",
+      "family": "spot",
+      "t": 1200.0,
+      "h_mean": 1.0,
+      "contrast_sha256": "df2fb100c98108b225556f1e2f3deb4a15eb18af20d2c673d80ac0c63d4185e5"
+    },
+    {
+      "id": "main_autonomous_labyrinth_08",
+      "family": "labyrinth",
+      "t": 0.0,
+      "h_mean": 0.0,
+      "contrast_sha256": "593f1a62b2581c04d280b9fa219545bc902fee4fa71ef9ccbc0ba1e6c3915aac"
+    },
+    {
+      "id": "main_autonomous_labyrinth_08",
+      "family": "labyrinth",
+      "t": 40.0,
+      "h_mean": 0.10044642857142858,
+      "contrast_sha256": "0f3451bf37784e4b8d384a28924bb5edde999cccbe629294f6d7d339d051ae59"
+    },
+    {
+      "id": "main_autonomous_labyrinth_08",
+      "family": "labyrinth",
+      "t": 150.0,
+      "h_mean": 0.9828869047619048,
+      "contrast_sha256": "abb8d52803e008cf5e9ab3eab157232cea9ed92643d8e5d4ddf6aa02af28ff1e"
+    },
+    {
+      "id": "main_autonomous_labyrinth_08",
+      "family": "labyrinth",
+      "t": 345.0,
+      "h_mean": 1.0,
+      "contrast_sha256": "c36dc5a52396056d91c78a32a0095418cb0cf8aa70c5c3217021c642ab51930e"
+    },
+    {
+      "id": "main_autonomous_labyrinth_08",
+      "family": "labyrinth",
+      "t": 1200.0,
+      "h_mean": 1.0,
+      "contrast_sha256": "5c7ac8c175322056f56e4ce9d9636c03d388d18e7b062058081b47541af4c827"
+    }
+  ],
+  "panel_layouts": [
+    {
+      "panel": "a",
+      "canvas_overflow_points": 0.0
+    },
+    {
+      "panel": "b",
+      "canvas_overflow_points": 0.0
+    },
+    {
+      "panel": "c",
+      "canvas_overflow_points": 0.0
+    },
+    {
+      "panel": "map_0_0",
+      "canvas_overflow_points": 0.2800000000000003
+    },
+    {
+      "panel": "map_0_1",
+      "canvas_overflow_points": 0.2800000000000003
+    },
+    {
+      "panel": "map_0_2",
+      "canvas_overflow_points": 0.2800000000000003
+    },
+    {
+      "panel": "map_0_3",
+      "canvas_overflow_points": 0.2800000000000003
+    },
+    {
+      "panel": "map_0_4",
+      "canvas_overflow_points": 0.2800000000000003
+    },
+    {
+      "panel": "map_1_0",
+      "canvas_overflow_points": 0.2800000000000003
+    },
+    {
+      "panel": "map_1_1",
+      "canvas_overflow_points": 0.2800000000000003
+    },
+    {
+      "panel": "map_1_2",
+      "canvas_overflow_points": 0.2800000000000003
+    },
+    {
+      "panel": "map_1_3",
+      "canvas_overflow_points": 0.2800000000000003
+    },
+    {
+      "panel": "map_1_4",
+      "canvas_overflow_points": 0.2800000000000003
+    },
+    {
+      "panel": "map_2_0",
+      "canvas_overflow_points": 0.2800000000000003
+    },
+    {
+      "panel": "map_2_1",
+      "canvas_overflow_points": 0.2800000000000003
+    },
+    {
+      "panel": "map_2_2",
+      "canvas_overflow_points": 0.2800000000000003
+    },
+    {
+      "panel": "map_2_3",
+      "canvas_overflow_points": 0.2800000000000003
+    },
+    {
+      "panel": "map_2_4",
+      "canvas_overflow_points": 0.2800000000000003
+    },
+    {
+      "panel": "labels",
+      "canvas_overflow_points": 0.0
+    },
+    {
+      "panel": "colorbar",
+      "canvas_overflow_points": 0.0
+    }
+  ],
+  "source_sha256": {
+    "analysis/summary.csv": "8ab2ef03a8ef87da1bc9c9331074ee9d80219175b8f80200113c81fdc3aff4b6",
+    "analysis/endpoints.csv": "5f318429a5f45d844a3bef6916751771e44102a0d9fb75721531a6050c075462",
+    "analysis/reference_time.json": "43315d56744a1831ca317712addca6fac8ec3ff590775e709d3a6125e16f4b1d"
+  }
+}

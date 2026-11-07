@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "baseline_runs": 48,
+  "reference_time": 345.0,
+  "latest_conversion_event_time": 340.76007873663474,
+  "maximum_ratio_error": 1.3322676295501878e-15,
+  "all_reference_normalizations_equal_one": true,
+  "all_error_bands_inside_axes": true,
+  "all_postreference_snapshots_converted": true,
+  "all_panels_inside_canvas": true
+}

@@ -1,0 +1,82 @@
+{
+  "activation_occupation_residual": 0.0,
+  "local_hilbert_dimension": 32,
+  "population_states": 15,
+  "max_generator_residual": 1.0658141036401503e-14,
+  "max_column_sum": 2.9837243786801082e-15,
+  "max_negative_probability": 0.0,
+  "evolution": [
+    {
+      "t": 0,
+      "negativity": 0.0,
+      "negativity_lower": 0.0,
+      "negativity_upper": 0.5,
+      "trace": 0.9999999999999998,
+      "min_eigenvalue": 0.0
+    },
+    {
+      "t": 0.05,
+      "negativity": 0.29340499763081007,
+      "negativity_lower": 0.15050826265324196,
+      "negativity_upper": 0.49791521727080296,
+      "trace": 0.9999999999999996,
+      "min_eigenvalue": 0.0
+    },
+    {
+      "t": 0.2,
+      "negativity": 0.39688814832424957,
+      "negativity_lower": 0.2191415978555601,
+      "negativity_upper": 0.4918841828799161,
+      "trace": 0.9999999999999994,
+      "min_eigenvalue": 0.0
+    },
+    {
+      "t": 1,
+      "negativity": 0.29767003340278897,
+      "negativity_lower": 0.2058549117639616,
+      "negativity_upper": 0.46268574109307675,
+      "trace": 1.0,
+      "min_eigenvalue": -1.2596302121660335e-17
+    },
+    {
+      "t": 10,
+      "negativity": 0.18012806901191847,
+      "negativity_lower": 0.0962256349004888,
+      "negativity_upper": 0.2227913886704042,
+      "trace": 0.9999999999999991,
+      "min_eigenvalue": 0.0
+    },
+    {
+      "t": 50,
+      "negativity": 0.003441671095105488,
+      "negativity_lower": 0.0,
+      "negativity_upper": 0.008042486320410089,
+      "trace": 1.0000000000000087,
+      "min_eigenvalue": -3.0386964009446296e-20
+    },
+    {
+      "t": 100,
+      "negativity": 1.154486324359244e-06,
+      "negativity_lower": 0.0,
+      "negativity_upper": 0.0001264964917374857,
+      "trace": 1.0000000000000278,
+      "min_eigenvalue": -2.3405081098995393e-22
+    },
+    {
+      "t": 200,
+      "negativity": 7.066121682777682e-14,
+      "negativity_lower": 0.0,
+      "negativity_upper": 3.129354399363059e-08,
+      "trace": 1.0000000000000666,
+      "min_eigenvalue": 0.0
+    },
+    {
+      "t": 400,
+      "negativity": 2.6465870692433414e-28,
+      "negativity_lower": 0.0,
+      "negativity_upper": 1.9151698118457207e-15,
+      "trace": 1.0000000000001443,
+      "min_eigenvalue": -2.570480617847569e-33
+    }
+  ]
+}

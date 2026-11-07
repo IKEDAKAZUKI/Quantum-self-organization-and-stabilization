@@ -32,6 +32,12 @@ Pattern persistence from the same initial occupation configurations. (a) A labyr
 
 Control of Turing amplification and recovery of band power. (a) Maximum linear growth rate near $u=0$ in the homogeneous deterministic limit with rapid phase relaxation. Vertical lines mark stationary values of the local coherence at $\eta=1$ and $30$. (b) Mean band power under the finite-dephasing cycle. Shading gives one standard error of the mean. The dephasing rate is $\eta=30$ in the gray interval $250\leq t<320$ and $\eta=1$ otherwise. The band power returns close to its pre-dephasing level for all three parameter sets.
 
+## Figure 5 · Autonomous classicalization
+
+[![Autonomous environmental response and persistent order](../classicalization/figures/figure5_classicalization.png)](../classicalization/figures/figure5_classicalization.pdf)
+
+Environmental conversion, bounds on local negativity, and persistence of spatial order after conversion. The denominator in panel (c) is $P_{\mathcal{B}}(t_*)$, where $t_*$ is the first common saved time at which all 48 baseline environmental records are converted. Panel (d) uses the same reference time. See the [caption and plotted values](../classicalization/figures/README.md) and [completion-time definition](../classicalization/analysis/reference_time.json). Figure 5 is reproduced by `python classicalization/render_figure.py`.
+
 ## Recreate these figures
 
 From the repository root:

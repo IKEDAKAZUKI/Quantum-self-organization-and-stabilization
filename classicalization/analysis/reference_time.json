@@ -1,0 +1,249 @@
+{
+  "symbol": "t_*",
+  "value": 345.0,
+  "definition": "First common saved time at which every baseline autonomous environmental record has h_x=1 at every cell.",
+  "baseline_runs": 48,
+  "latest_conversion_event_time": 340.76007873663474,
+  "runs": [
+    {
+      "id": "main_autonomous_labyrinth_00",
+      "conversion_event_time": 211.7529544560939,
+      "first_complete_saved_time": 215.0
+    },
+    {
+      "id": "main_autonomous_labyrinth_01",
+      "conversion_event_time": 198.49990678981422,
+      "first_complete_saved_time": 200.0
+    },
+    {
+      "id": "main_autonomous_labyrinth_02",
+      "conversion_event_time": 200.2939978620881,
+      "first_complete_saved_time": 205.0
+    },
+    {
+      "id": "main_autonomous_labyrinth_03",
+      "conversion_event_time": 217.35225782666063,
+      "first_complete_saved_time": 220.0
+    },
+    {
+      "id": "main_autonomous_labyrinth_04",
+      "conversion_event_time": 203.14302051402566,
+      "first_complete_saved_time": 205.0
+    },
+    {
+      "id": "main_autonomous_labyrinth_05",
+      "conversion_event_time": 213.21409666831715,
+      "first_complete_saved_time": 215.0
+    },
+    {
+      "id": "main_autonomous_labyrinth_06",
+      "conversion_event_time": 204.32222492672855,
+      "first_complete_saved_time": 205.0
+    },
+    {
+      "id": "main_autonomous_labyrinth_07",
+      "conversion_event_time": 192.71067769698348,
+      "first_complete_saved_time": 195.0
+    },
+    {
+      "id": "main_autonomous_labyrinth_08",
+      "conversion_event_time": 206.0440035662645,
+      "first_complete_saved_time": 210.0
+    },
+    {
+      "id": "main_autonomous_labyrinth_09",
+      "conversion_event_time": 230.9503265603032,
+      "first_complete_saved_time": 235.0
+    },
+    {
+      "id": "main_autonomous_labyrinth_10",
+      "conversion_event_time": 224.0415163705261,
+      "first_complete_saved_time": 225.0
+    },
+    {
+      "id": "main_autonomous_labyrinth_11",
+      "conversion_event_time": 192.55245400739315,
+      "first_complete_saved_time": 195.0
+    },
+    {
+      "id": "main_autonomous_labyrinth_12",
+      "conversion_event_time": 211.3279628356287,
+      "first_complete_saved_time": 215.0
+    },
+    {
+      "id": "main_autonomous_labyrinth_13",
+      "conversion_event_time": 209.804534162329,
+      "first_complete_saved_time": 210.0
+    },
+    {
+      "id": "main_autonomous_labyrinth_14",
+      "conversion_event_time": 189.3158024501256,
+      "first_complete_saved_time": 190.0
+    },
+    {
+      "id": "main_autonomous_labyrinth_15",
+      "conversion_event_time": 232.73310686672292,
+      "first_complete_saved_time": 235.0
+    },
+    {
+      "id": "main_autonomous_spot_00",
+      "conversion_event_time": 299.93774824881496,
+      "first_complete_saved_time": 300.0
+    },
+    {
+      "id": "main_autonomous_spot_01",
+      "conversion_event_time": 285.7033722672306,
+      "first_complete_saved_time": 290.0
+    },
+    {
+      "id": "main_autonomous_spot_02",
+      "conversion_event_time": 271.72463150365934,
+      "first_complete_saved_time": 275.0
+    },
+    {
+      "id": "main_autonomous_spot_03",
+      "conversion_event_time": 260.40252610702447,
+      "first_complete_saved_time": 265.0
+    },
+    {
+      "id": "main_autonomous_spot_04",
+      "conversion_event_time": 340.76007873663474,
+      "first_complete_saved_time": 345.0
+    },
+    {
+      "id": "main_autonomous_spot_05",
+      "conversion_event_time": 288.1497576070177,
+      "first_complete_saved_time": 290.0
+    },
+    {
+      "id": "main_autonomous_spot_06",
+      "conversion_event_time": 260.8836337426129,
+      "first_complete_saved_time": 265.0
+    },
+    {
+      "id": "main_autonomous_spot_07",
+      "conversion_event_time": 313.7821373714014,
+      "first_complete_saved_time": 315.0
+    },
+    {
+      "id": "main_autonomous_spot_08",
+      "conversion_event_time": 296.49730752313843,
+      "first_complete_saved_time": 300.0
+    },
+    {
+      "id": "main_autonomous_spot_09",
+      "conversion_event_time": 273.401333416826,
+      "first_complete_saved_time": 275.0
+    },
+    {
+      "id": "main_autonomous_spot_10",
+      "conversion_event_time": 295.9284173450202,
+      "first_complete_saved_time": 300.0
+    },
+    {
+      "id": "main_autonomous_spot_11",
+      "conversion_event_time": 298.2550153443857,
+      "first_complete_saved_time": 300.0
+    },
+    {
+      "id": "main_autonomous_spot_12",
+      "conversion_event_time": 279.645198499157,
+      "first_complete_saved_time": 280.0
+    },
+    {
+      "id": "main_autonomous_spot_13",
+      "conversion_event_time": 286.09562529072656,
+      "first_complete_saved_time": 290.0
+    },
+    {
+      "id": "main_autonomous_spot_14",
+      "conversion_event_time": 252.70708469320945,
+      "first_complete_saved_time": 255.0
+    },
+    {
+      "id": "main_autonomous_spot_15",
+      "conversion_event_time": 296.0150621714312,
+      "first_complete_saved_time": 300.0
+    },
+    {
+      "id": "main_autonomous_stripe_00",
+      "conversion_event_time": 221.85656446767504,
+      "first_complete_saved_time": 225.0
+    },
+    {
+      "id": "main_autonomous_stripe_01",
+      "conversion_event_time": 236.59476243153347,
+      "first_complete_saved_time": 240.0
+    },
+    {
+      "id": "main_autonomous_stripe_02",
+      "conversion_event_time": 218.33988836524452,
+      "first_complete_saved_time": 220.0
+    },
+    {
+      "id": "main_autonomous_stripe_03",
+      "conversion_event_time": 216.92495253800985,
+      "first_complete_saved_time": 220.0
+    },
+    {
+      "id": "main_autonomous_stripe_04",
+      "conversion_event_time": 214.72368867597763,
+      "first_complete_saved_time": 215.0
+    },
+    {
+      "id": "main_autonomous_stripe_05",
+      "conversion_event_time": 212.3233284349189,
+      "first_complete_saved_time": 215.0
+    },
+    {
+      "id": "main_autonomous_stripe_06",
+      "conversion_event_time": 230.73287922065748,
+      "first_complete_saved_time": 235.0
+    },
+    {
+      "id": "main_autonomous_stripe_07",
+      "conversion_event_time": 221.9738408469395,
+      "first_complete_saved_time": 225.0
+    },
+    {
+      "id": "main_autonomous_stripe_08",
+      "conversion_event_time": 215.346557309048,
+      "first_complete_saved_time": 220.0
+    },
+    {
+      "id": "main_autonomous_stripe_09",
+      "conversion_event_time": 247.6710311265273,
+      "first_complete_saved_time": 250.0
+    },
+    {
+      "id": "main_autonomous_stripe_10",
+      "conversion_event_time": 261.27649022949515,
+      "first_complete_saved_time": 265.0
+    },
+    {
+      "id": "main_autonomous_stripe_11",
+      "conversion_event_time": 230.9006603584492,
+      "first_complete_saved_time": 235.0
+    },
+    {
+      "id": "main_autonomous_stripe_12",
+      "conversion_event_time": 220.35470404241084,
+      "first_complete_saved_time": 225.0
+    },
+    {
+      "id": "main_autonomous_stripe_13",
+      "conversion_event_time": 223.51303331649177,
+      "first_complete_saved_time": 225.0
+    },
+    {
+      "id": "main_autonomous_stripe_14",
+      "conversion_event_time": 224.11666799018525,
+      "first_complete_saved_time": 225.0
+    },
+    {
+      "id": "main_autonomous_stripe_15",
+      "conversion_event_time": 254.6901713935155,
+      "first_complete_saved_time": 255.0
+    }
+  ]
+}

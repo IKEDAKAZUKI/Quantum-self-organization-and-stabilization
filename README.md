@@ -20,6 +20,24 @@ The calculations connect three aspects of this process:
 
 The simulation samples the exact invariant population jump process of the Lindblad model. The entanglement criteria refer to the unconditional physical-mode state, not to a single sampled configuration. The separable bounds include arbitrary classical correlations and the control conditions described in [Methods](docs/METHODS.md).
 
+## Autonomous classicalization
+
+The [environmental extension](classicalization/) adds explicit local environmental degrees of freedom to the bosonic lattice. The same time-independent generator describes quantum-supported formation, the environmental response, and subsequent classical persistence. No parameter switch is imposed during the primary simulations.
+
+[![Environmental conversion, local entanglement and persistent spatial order](classicalization/figures/figure5_classicalization.png)](classicalization/figures/figure5_classicalization.pdf)
+
+The persistence reference $t_*$ is the first common saved time at which all 48 baseline environmental records are fully converted. Its value is determined from the data, not specified as a switching time. The figure reports individual $P_{\mathcal{B}}(t)/P_{\mathcal{B}}(t_*)$ ratios averaged over each ensemble. All 172 extension runs, parameters, environment-event records, analysis and validation are included. The original fixed-channel bounds and the extended active-environment dynamics have distinct scopes, explained in the [model description](classicalization/docs/MODEL.md).
+
+To regenerate the extension analysis and figure from recorded trajectories:
+
+```bash
+cd classicalization
+python -m pip install -r requirements.txt
+python analyze_study.py
+python render_figure.py
+python validate_publication.py
+```
+
 ## Getting started
 
 Clone the repository and run the commands from its root directory. The tested environment is Python **3.13.5** with the dependencies pinned in `requirements-tested.txt`. A C++17 compiler is needed only for new simulations and generator tests.
@@ -90,6 +108,7 @@ Omit `--until` to run the full duration. Explicit CFG and JSON inputs are suppor
 | --- | --- |
 | [`qtp/`](qtp/) | Observables, separable bounds, geometry classification, analysis and plotting |
 | [`src/critical_jump.cpp`](src/critical_jump.cpp) | Continuous-time quantum and number-projected jump dynamics |
+| [`classicalization/`](classicalization/) | Autonomous environmental model, 172 trajectories, analysis and Figure 5 |
 | [`figures/`](figures/) | Study figures, overview image and captions |
 | [`docs/`](docs/) | Methods, data formats, analysis definitions and simulation instructions |
 | [`tests/`](tests/) | Automated numerical and software tests |
