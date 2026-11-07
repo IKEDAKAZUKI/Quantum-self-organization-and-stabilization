@@ -22,7 +22,7 @@ The simulation samples the exact invariant population jump process of the Lindbl
 
 ## Autonomous classicalization
 
-The [environmental extension](classicalization/) adds explicit local environmental degrees of freedom to the bosonic lattice. The same time-independent generator describes quantum-supported formation, the environmental response, and subsequent classical persistence. No parameter switch is imposed during the primary simulations.
+The [environmental extension](classicalization/) adds explicit local environmental degrees of freedom to the bosonic lattice. The same time-independent generator describes quantum-supported formation, the environmental response, and subsequent classical persistence. 
 
 [![Environmental conversion, local entanglement and persistent spatial order](classicalization/figures/figure5_classicalization.png)](classicalization/figures/figure5_classicalization.pdf)
 
