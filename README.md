@@ -26,7 +26,7 @@ The [environmental extension](classicalization/) adds explicit local environment
 
 [![Environmental conversion, local entanglement and persistent spatial order](classicalization/figures/figure5_classicalization.png)](classicalization/figures/figure5_classicalization.pdf)
 
-The persistence reference $t_\*$ is the first common saved time at which all 48 baseline environmental records are fully converted. Its value is determined from the data, not specified as a switching time. The figure reports individual \(P_{\mathcal{B}}(t)/P_{\mathcal{B}}(t_*)\) ratios averaged over each ensemble. All extension runs, parameters, environment-event records, analysis and validation are included. The original fixed-channel bounds and the extended active-environment dynamics have distinct scopes, explained in the [model description](classicalization/docs/MODEL.md).
+The persistence reference $t_\*$ is the first common saved time at which all 48 baseline environmental records are fully converted. Its value is determined from the data, not specified as a switching time. The figure reports individual $P_{\mathcal{B}}(t)/P_{\mathcal{B}}(t_\*)$ ratios averaged over each ensemble. All extension runs, parameters, environment-event records, analysis and validation are included. The original fixed-channel bounds and the extended active-environment dynamics have distinct scopes, explained in the [model description](classicalization/docs/MODEL.md).
 
 To regenerate the extension analysis and figure from recorded trajectories:
 
