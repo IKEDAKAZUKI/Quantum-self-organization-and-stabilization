@@ -26,7 +26,7 @@ The [environmental extension](classicalization/) couples each cell to an environ
 
 [![Environmental conversion, local entanglement and persistent spatial order](classicalization/figures/figure5_classicalization.png)](classicalization/figures/figure5_classicalization.pdf)
 
-The patterns persist as local entanglement is lost. The reference time $t_*=345$ is the first common saved time at which all 48 baseline trajectories have completed the environmental transition. The generator remains unchanged at this time. Panel (c) shows ensemble averages of the individual band-power ratios $P_{\mathcal{B}}(t)/P_{\mathcal{B}}(t_*)$. The [model description](classicalization/docs/MODEL.md) explains the distinction between individual environmental records and the unconditional state, as well as the scope of the original separable bounds.
+The patterns persist as local entanglement is lost. The reference time $t_\*=345$ is the first common saved time at which all 48 baseline trajectories have completed the environmental transition. The generator remains unchanged at this time. Panel (c) shows ensemble averages of the individual band-power ratios $P_{\mathcal{B}}(t)/P_{\mathcal{B}}(t_\*)$. The [model description](classicalization/docs/MODEL.md) explains the distinction between individual environmental records and the unconditional state, as well as the scope of the original separable bounds.
 
 ## Getting started
 
