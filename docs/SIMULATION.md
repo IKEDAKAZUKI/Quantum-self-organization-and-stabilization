@@ -2,6 +2,22 @@
 
 The root-level `run_simulation.py` command combines compilation, configuration, execution and conversion.
 
+## Setup
+
+Download the repository, create an isolated Python environment and install the tested dependencies. Access to this private repository requires an authorized GitHub account.
+
+```bash
+git clone https://github.com/IKEDAKAZUKI/Quantum-self-organization-and-stabilization.git
+cd Quantum-self-organization-and-stabilization
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements-tested.txt -r classicalization/requirements.txt
+```
+
+The recorded validation environment uses Python 3.13.5. On Windows, activate the environment with `.venv\Scripts\Activate.ps1` in PowerShell. The installation command includes the additional requirements listed in `classicalization/requirements.txt`.
+
+A C++17 compiler is required for new simulations and generator tests. Set `CXX` to select a compiler. The stored trajectories are sufficient for regenerating the analysis and figures without compiling or running the simulation engine. Bitwise agreement of newly generated trajectories depends on the compiler and random-number implementation.
+
 ## Input selection
 
 - An explicit `.cfg` is parsed directly. Its settings take precedence over any
@@ -37,7 +53,8 @@ python convert_trajectory.py results/direct/confirm_stripe_00.bin --eps 0.01 --o
 The direct example runs the complete recorded duration. For a shorter check use
 
 ```bash
-python run_simulation.py confirm_stripe_00 --until 10 --output results/short
+python run_simulation.py confirm_stripe_00 --until 10 --output results/short_quantum
+python run_simulation.py maint_stripe_00_1 --until 10 --output results/short_projected
 ```
 
 The output directory must not already contain files with the same run ID. The wrapper copies the initialization and writes parameters matching the executed prefix. It leaves the packaged input untouched. Generated artifacts may be placed under `results/` or in an external directory, not inside the packaged data or source directories.

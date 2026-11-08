@@ -10,66 +10,66 @@ Simulation code, numerical data and analysis tools for **Quantum entanglement as
 
 ## Research overview
 
-Can entanglement be necessary for a spatial pattern to form and persist? This study addresses that question in a noisy bosonic lattice. Entanglement between the two modes within each cell supports transport that amplifies spatial variations, producing stripes, spots and labyrinths across the array.
+Can quantum entanglement generate macroscopic order that persists after the entanglement itself disappears? This study establishes such a mechanism in a driven-dissipative bosonic lattice. Entanglement between the two modes within each cell enables transport that amplifies spatial fluctuations into stripes, spots and labyrinths across the array.
 
-The calculations connect three aspects of this process:
+The original model connects three aspects of this process:
 
-- **Formation.** Quantum dynamics produces mean pattern intensities above rigorous bounds for separable evolution under the specified physical constraints.
-- **Stabilization.** Quantum and continuously number-projected dynamics start from the same occupation and leakage configurations. Quantum evolution maintains the pattern intensity, while the projected evolution loses the target geometry.
+- **Formation.** Quantum dynamics produces mean pattern intensities above rigorous bounds for all admissible separable evolutions under the specified physical constraints.
+- **Stabilization.** Quantum evolution sustains pattern intensities above the separable maintenance bounds. Continuous number-basis projection, starting from the same occupation and leakage configurations, suppresses their persistence.
 - **Control.** Increasing local dephasing suppresses pattern amplification. Restoring the original dephasing rate permits recovery.
 
-The simulation samples the exact invariant population jump process of the Lindblad model. The entanglement criteria refer to the unconditional physical-mode state, not to a single sampled configuration. The separable bounds include arbitrary classical correlations and the control conditions described in [Methods](docs/METHODS.md).
+The excess pattern intensity also gives a lower bound on the accumulated transport contribution beyond the separable limit. The simulations sample the exact invariant population jump process of the Lindblad model, and the entanglement criteria apply to the unconditional state of the physical modes. The separable bounds allow arbitrary classical correlations and the controls specified in [Methods](docs/METHODS.md).
 
 ## Autonomous classicalization
 
-The [environmental extension](classicalization/) adds explicit local environmental degrees of freedom to the bosonic lattice. The same time-independent generator describes quantum-supported formation, the environmental response, and subsequent classical persistence. 
+The [environmental extension](classicalization/) couples each cell to an environment that responds to emerging order by suppressing local coherence and activating classical transport. Quantum-supported formation, the environmental response and subsequent classical maintenance follow from a single time-independent Lindblad generator.
 
 [![Environmental conversion, local entanglement and persistent spatial order](classicalization/figures/figure5_classicalization.png)](classicalization/figures/figure5_classicalization.pdf)
 
-The persistence reference $t_\*$ is the first common saved time at which all 48 baseline environmental records are fully converted. Its value is determined from the data, not specified as a switching time. The figure reports individual $P_{\mathcal{B}}(t)/P_{\mathcal{B}}(t_\*)$ ratios averaged over each ensemble. All extension runs, parameters, environment-event records, analysis and validation are included. The original fixed-channel bounds and the extended active-environment dynamics have distinct scopes, explained in the [model description](classicalization/docs/MODEL.md).
-
-To regenerate the extension analysis and figure from recorded trajectories:
-
-```bash
-cd classicalization
-python -m pip install -r requirements.txt
-python analyze_study.py
-python render_figure.py
-python validate_publication.py
-```
+The patterns persist as local entanglement is lost. The reference time $t_*=345$ is the first common saved time at which all 48 baseline trajectories have completed the environmental transition. The generator remains unchanged at this time. Panel (c) shows ensemble averages of the individual band-power ratios $P_{\mathcal{B}}(t)/P_{\mathcal{B}}(t_*)$. The [model description](classicalization/docs/MODEL.md) explains the distinction between individual environmental records and the unconditional state, as well as the scope of the original separable bounds.
 
 ## Getting started
 
-Clone the repository and run the commands from its root directory. The tested environment is Python **3.13.5** with the dependencies pinned in `requirements-tested.txt`. A C++17 compiler is needed only for new simulations and generator tests.
-
-```bash
-git clone https://github.com/IKEDAKAZUKI/Quantum-self-organization-and-stabilization.git
-cd Quantum-self-organization-and-stabilization
-python3 -m venv .venv
-source .venv/bin/activate
-python -m pip install -r requirements-tested.txt
-```
-
-On Windows, activate the environment with `.venv\Scripts\Activate.ps1` in PowerShell. The ready-to-view [figures](figures/README.md) and [reference tables](data/reference/) do not require running a simulation.
+The [figures](figures/README.md) and [reference tables](data/reference/) can be inspected directly. The recorded validation environment uses Python **3.13.5** with versions pinned in `requirements-tested.txt`. See the [setup instructions](docs/SIMULATION.md#setup) for download and installation commands. A C++17 compiler is needed only for new simulations and generator tests.
 
 ## Reproduce the analysis and figures
+
+From the repository root:
 
 ```bash
 python analyze_trajectories.py --output results/analysis
 python make_figures.py --analysis results/analysis --output results/figures
 ```
 
-These commands read the recorded trajectories, recompute the observables and ensemble statistics, and produce the four study figures plus the overview image in PDF and PNG formats. Plotted-value tables and input hashes are written alongside the figures. All realizations enter the ensemble averages, including configurations outside the target geometry. Generated outputs are kept under `results/`, separate from the distributed data.
+These commands regenerate Figures 1–4 and the overview image from the recorded trajectories. All realizations enter the ensemble averages. Figures, plotted values and input hashes are written under `results/`, separately from the supplied data. **No new stochastic simulation is required.**
 
-The complete analysis uses the saved trajectories. **No new stochastic simulation is required to reproduce the figures.** To render only the figures from the included summary tables:
+<details>
+<summary>Additional reproduction commands</summary>
+
+Render Figures 1–4 from the included summary tables:
 
 ```bash
 python make_figures.py --analysis data/summary --output results/figures
 ```
 
+Regenerate the environmental analysis and Figure 5:
+
+```bash
+(
+  cd classicalization &&
+  python analyze_study.py &&
+  python render_figure.py &&
+  python validate_publication.py
+)
+```
+
+The [environmental extension guide](classicalization/README.md) describes its additional checks and simulation options.
+
+</details>
+
 ## Data
 
-All **228 recorded trajectories**, their parameters, initial configurations and event diagnostics are included.
+The original model includes **228 recorded trajectories**, with parameters, initial configurations and available event diagnostics. The [environmental extension](classicalization/) adds **172 trajectories**, for **400 in total**.
 
 | Dataset | Contents | Trajectories |
 | --- | --- | ---: |
@@ -79,28 +79,19 @@ All **228 recorded trajectories**, their parameters, initial configurations and 
 
 The primary formation and maintenance ensembles use $48\times56$ cells and 16 realizations per family. Dephasing cycles use $24\times28$ cells. The independent-preparation analysis uses four preparation/disorder blocks as its statistical units.
 
-The [data dictionary](docs/DATA_DICTIONARY.md) explains array axes, state labels, run identifiers and metadata. In particular, stored `n` is a centered integer label, and occupation contrast is `u = eps * (n - 0.5 * (s == 0))`. In projected mode, `s=1` denotes a nonleaked cell, not nonzero coherence. The CSV field `energy` denotes mean squared occupation contrast, not Hamiltonian energy.
+The [data dictionary](docs/DATA_DICTIONARY.md) documents array axes, state labels, physical occupation numbers and metadata. It also explains the projected-state labels and the `energy` field, which denotes mean squared occupation contrast.
 
 ## Validation
 
-```bash
-python verify_results.py audit --output results/integrity.json
-python -m unittest discover -s tests -v
-python verify_results.py check --output results/endpoints.json
-python verify_results.py small --output results/generators.json
-python verify_results.py smoke --output results/short_trajectories.json
-```
-
-These checks cover file integrity, parameter handling, all 216 formation/maintenance endpoints, 144 matched continuation starts, independent finite-system generator calculations, and short quantum/projected simulations. A failed check returns a nonzero exit status. The `thresholds` and `dephasing` actions provide additional checks. See [validation results](validation/README.md) for the recorded reports.
+The checks cover file integrity, parameter handling, all 216 formation and maintenance endpoints, 144 matched continuation starts, independent finite-system generators and short quantum and projected simulations. See the [validation guide](validation/README.md) for commands and recorded reports. Failed checks return a nonzero exit status. Checks for the [environmental extension](classicalization/README.md#reproducibility-and-scope) are documented separately.
 
 ## Run a simulation
 
 ```bash
 python run_simulation.py confirm_stripe_00 --until 10 --output results/quantum_run
-python run_simulation.py maint_stripe_00_1 --until 10 --output results/projected_run
 ```
 
-Omit `--until` to run the full duration. Explicit CFG and JSON inputs are supported, and existing outputs are not overwritten. Set `CXX` to select a C++17 compiler. See [Simulation guide](docs/SIMULATION.md) for custom parameters, direct C++ execution and binary conversion. Bitwise agreement of new stochastic trajectories depends on the compiler and random-number implementation.
+Omit `--until` for the full duration. The [simulation guide](docs/SIMULATION.md) covers projected runs, custom inputs, compiler selection and output formats. Existing outputs are not overwritten. Bitwise agreement of new trajectories depends on the compiler and random-number implementation.
 
 ## Repository guide
 
@@ -113,6 +104,10 @@ Omit `--until` to run the full duration. Explicit CFG and JSON inputs are suppor
 | [`docs/`](docs/) | Methods, data formats, analysis definitions and simulation instructions |
 | [`tests/`](tests/) | Automated numerical and software tests |
 | [`provenance/`](provenance/) | Generator and initialization hashes |
+
+## Related work
+
+The [Quantum Turing Pattern repository](https://github.com/IKEDAKAZUKI/Quantum-Turing-Pattern) contains related work on constructive quantum Turing pattern formation.
 
 ## Citation and permissions
 

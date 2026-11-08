@@ -1,4 +1,4 @@
-"""Separable formation and maintenance bounds in Eqs. (28), (30), (38)--(42).
+"""Separable formation and maintenance bounds in Eqs. (28), (30), (43)--(47).
 
 Times are dimensionless. Parameters use the saved simulation names: ``Db`` is
 D_bg, ``smooth`` is s_0, and ``leak``/``repair`` are kappa_l/kappa_r.
@@ -103,7 +103,7 @@ def maintenance_bound(tau: object, p: Parameters, ell_f: float) -> np.ndarray:
 
 def source_moments(t: object, p: Parameters, e0: float = 0.0,
                    ell0: float = 0.0) -> tuple[np.ndarray, np.ndarray]:
-    """Mean coherence and leakage, Eqs. (12), (35)--(36), for constant rates."""
+    """Mean coherence and leakage, Eqs. (12), (40)--(41), for constant rates."""
     t = _times(t)
     r, eta, leak, repair = (float(p[x]) for x in ("r", "eta", "leak", "repair"))
     if not all(np.isfinite(x) and x >= 0 for x in (r, eta, leak, repair)):
