@@ -111,6 +111,29 @@ The [Quantum Turing Pattern repository](https://github.com/IKEDAKAZUKI/Quantum-T
 
 ## Citation and permissions
 
-Please cite **Kazuki Ikeda, “Quantum entanglement as a resource for self-organization and stabilization”**, and identify the repository version or commit used. Machine-readable software citation metadata is provided in [CITATION.cff](CITATION.cff).
+Please cite the associated paper when using these calculations, data, or figures:
+
+**Kazuki Ikeda, *Quantum entanglement as a resource for self-organization and stabilization**, [arXiv:2611.11175](https://arxiv.org/abs/2611.11175) (2026).**
+
+```bibtex
+@ARTICLE{2026arXiv261111175,
+       author = {{Ikeda}, Kazuki},
+        title = "{Quantum entanglement as a resource for self-organization and stabilization}",
+      journal = {arXiv e-prints},
+     keywords = {Quantum Physics, Statistical Mechanics; Adaptation and Self-Organizing Systems; Pattern Formation and Solitons},
+         year = 2026,
+        month = aug,
+          eid = {arXiv:2611.11175},
+        pages = {arXiv:2611.11175},
+          doi = {10.48550/arXiv.2611.11175},
+archivePrefix = {arXiv},
+       eprint = {2611.11175},
+ primaryClass = {quant-ph},
+       adsurl = {https://doi.org/10.48550/arXiv.2611.11175},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+```
+
+Machine-readable software citation metadata is provided in [CITATION.cff](CITATION.cff).
 
 Reuse and redistribution permissions are described in [LICENSE.md](LICENSE.md). Questions and reproducible bug reports can be submitted through the repository's issue tracker.
